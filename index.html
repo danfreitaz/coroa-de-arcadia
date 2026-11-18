@@ -116,6 +116,9 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
 .fx .w{border-style:dashed}
 .cf{padding:12px 26px 26px;text-align:center;font-size:13px;color:var(--mut)}
 .cf b{font-family:var(--h);font-size:10px;letter-spacing:2px;color:var(--mut);display:block;margin-bottom:4px;font-weight:600}
+.risk{color:#fff;background:var(--blood);padding:2px 7px;border-radius:2px;font-weight:700;letter-spacing:1.5px;animation:pulse 2.4s infinite}
+.card.hi{border-color:var(--blood);outline-color:#d0564a;box-shadow:0 18px 50px rgba(0,0,0,.5),0 0 0 1px rgba(142,42,34,.4),0 0 40px rgba(142,42,34,.25)}
+.card.hi .seal{border-color:#d0564a;box-shadow:0 0 0 4px rgba(142,42,34,.3),0 8px 20px rgba(42,28,13,.35)}
 .card.out{animation:out .45s forwards}.card.in{animation:cin .55s}
 /* advisors */
 .adv{border:1px solid var(--line);background:linear-gradient(180deg,rgba(19,38,72,.8),rgba(5,11,24,.85));border-radius:3px}
@@ -361,6 +364,9 @@ footer{display:flex;justify-content:space-between;margin-top:30px;padding-top:14
 <script src="cartas4.js"></script>
 <script src="cartas5.js"></script>
 <script src="falas.js"></script>
+<script src="cartas6.js"></script>
+<script src="cartas7.js"></script>
+<script src="cartas8.js"></script>
 <script>
 (()=>{
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
@@ -437,7 +443,7 @@ function fxHtml(opt){
 function renderCard(anim){
   const c=cur, [tl,tc]=NICHO[c.n]||['REINO','#555'];
   $('#card').innerHTML=`
-   <div class="ch"><span><i></i>AUDIÊNCIA REAL</span><span>#${pad(S.seen).padStart(3,'0')} · ${tl}</span></div>
+   <div class="ch"><span><i></i>AUDIÊNCIA REAL</span><span>#${pad(S.seen).padStart(3,'0')} · ${tl}${c.r?' · <b class="risk">⚠ ALTO RISCO</b>':''}</span></div>
    <div class="cb">
      <div class="seal">${c.selo}</div>
      <div class="who">${c.quem}</div><div class="casa">${c.casa}</div>
@@ -449,8 +455,8 @@ function renderCard(anim){
      <button class="dec" data-o="nao"><span class="l">↙ Recusar</span><span class="fx">${fxHtml(c.nao)}</span></button>
      <button class="dec" data-o="sim"><span class="l">Aceitar ↗</span><span class="fx">${fxHtml(c.sim)}</span></button>
    </div>
-   <div class="cf"><b>${window.CARTAS.length} PETIÇÕES NO REINO · 4 NICHOS · 3 CONSELHEIROS</b>Só o ouro aparece. O resto, só a Corte revela.</div>`;
-  const card=$('#card'); if(anim){card.classList.remove('in');void card.offsetWidth;card.classList.add('in')}
+   <div class="cf"><b>${window.CARTAS.length} PETIÇÕES NO REINO · ${window.CARTAS.filter(x=>x.r).length} DE ALTO RISCO · 3 CONSELHEIROS</b>Só o ouro aparece. O resto, só a Corte revela.</div>`;
+  const card=$('#card'); card.classList.toggle('hi',!!c.r); if(anim){card.classList.remove('in');void card.offsetWidth;card.classList.add('in')}
   $$('.dec').forEach(b=>{
     b.onmouseenter=()=>project(c[b.dataset.o]); b.onmouseleave=()=>project(null);
     b.onclick=()=>decide(b.dataset.o)});
