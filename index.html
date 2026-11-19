@@ -121,6 +121,33 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
 .card.hi{border-color:var(--blood);outline-color:#d0564a;box-shadow:0 18px 50px rgba(0,0,0,.5),0 0 0 1px rgba(142,42,34,.4),0 0 40px rgba(142,42,34,.25)}
 .card.hi .seal{border-color:#d0564a;box-shadow:0 0 0 4px rgba(142,42,34,.3),0 8px 20px rgba(42,28,13,.35)}
 .card.out{animation:out .45s forwards}.card.in{animation:cin .55s}
+/* decretos */
+.dsum{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin-bottom:16px}
+.dsum div{border:1px solid var(--line);background:rgba(5,11,24,.45);padding:10px 12px;border-radius:2px}
+.dsum b{display:block;font-family:var(--h);font-size:20px;font-weight:500;color:#f6ecd2}
+.dsum small{font-size:12px;color:var(--dim)}
+.dcard{border:1px solid var(--line);border-left:3px solid var(--gold);background:linear-gradient(180deg,rgba(19,38,72,.6),rgba(5,11,24,.6));border-radius:2px;padding:14px 16px;margin-bottom:12px;animation:cin .4s both}
+.dcard.soon{border-left-color:#d0564a}
+.dh{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.dseal{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;font-size:20px;background:radial-gradient(circle at 35% 30%,#1b3566,var(--navy));border:2px solid var(--gold)}
+.dt{flex:1;min-width:160px}
+.dt b{display:block;font-family:var(--h);font-size:17px;font-weight:600;color:#f6ecd2}
+.dt small{font-size:13px;color:var(--dim)}
+.dh .tag{margin-top:0}
+.dorig{font-family:var(--i);font-size:15px;color:var(--txt);margin:10px 0 4px;line-height:1.45;opacity:.9}
+.dgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:10px 0}
+.dgrid>div>small{display:block;font-family:var(--h);font-size:9.5px;letter-spacing:1.8px;color:var(--dim);margin-bottom:5px}
+.dchip{display:inline-block;font-size:12.5px;font-weight:600;padding:2px 7px;border-radius:2px;border:1px solid var(--line);margin:0 3px 3px 0}
+.dchip.up{color:#9fd67a;border-color:rgba(159,214,122,.35)}.dchip.dn{color:#ff9d8f;border-color:rgba(255,110,95,.35)}
+.dim{color:var(--dim);font-size:13px;font-style:italic}
+.dprog{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:13px;color:var(--dim)}
+.dprog b{color:#f6ecd2}
+.dcard.soon .dprog span:last-child{color:#ff9d8f}
+.dbar{height:4px;background:rgba(255,255,255,.08);border-radius:2px;margin-top:6px;overflow:hidden}
+.dbar i{display:block;height:100%;background:linear-gradient(90deg,var(--gold3),var(--gold2));transition:width .6s}
+.dcard.soon .dbar i{background:linear-gradient(90deg,#8e2a22,#d0564a)}
+.dend{font-family:var(--h);font-size:12px;letter-spacing:2.5px;color:var(--gold2);margin:20px 0 4px}
+@media (max-width:820px){.dgrid{grid-template-columns:1fr}}
 /* advisors */
 .adv{border:1px solid var(--line);background:linear-gradient(180deg,rgba(19,38,72,.8),rgba(5,11,24,.85));border-radius:3px}
 .adv .ah{display:flex;justify-content:space-between;padding:12px 16px;border-bottom:1px solid var(--line);font-family:var(--h);font-size:10px;letter-spacing:2px;color:var(--dim)}
@@ -320,7 +347,7 @@ footer{display:flex;justify-content:space-between;margin-top:30px;padding-top:14
           <div class="tip" id="tip"><p><b>Aceitar ou recusar.</b> Consulte a Corte para revelar efeitos menos óbvios. Cada consulta custa 3 de Autoridade.</p><button class="tbtn" id="tipOk">Entendido</button></div>
           <article class="card" id="card"></article>
         </section>
-        <section class="view" id="v-dec"><div class="panel"><h2>Decretos vigentes</h2><p class="lead">O que a Coroa assinou continua valendo, semana após semana.</p><div class="rows" id="decList"></div></div></section>
+        <section class="view" id="v-dec"><div class="panel"><h2>Decretos vigentes</h2><p class="lead">O que a Coroa assinou continua valendo, semana após semana.</p><div id="decSum"></div><div id="decList"></div><div id="decEnd"></div></div></section>
         <section class="view" id="v-tes"><div class="panel" id="tesPanel"></div></section>
         <section class="view" id="v-cro"><div class="panel log"><h2>Crônica do reinado</h2><p class="lead">Cada decisão, registrada pelos escribas do castelo.</p><div class="rows" id="croList"></div></div></section>
       </div>
@@ -531,7 +558,38 @@ function renderHead(){
   $('#bDec').textContent=S.vigs.length;
 }
 function renderViews(){
-  $('#decList').innerHTML=S.vigs.length?S.vigs.map(g=>`<div class="row"><div><b>📜 ${g.nome}</b><small>${parse(g.fx).map(e=>(e.k==='ouro'?'⚜ ':e.k+' ')+fmt(e.v)).join(' · ')} por semana</small></div><span>${g.left} sem.</span></div>`).join(''):'<p class="empty">Nenhum decreto em vigor. O reino respira sem amarras.</p>';
+  {const LB={ouro:'⚜ Ouro',guarda:'⚔️ Guarda',nobreza:'👑 Nobreza',clero:'⛪ Clero',burguesia:'⚖️ Burguesia',povo:'🌾 Povo'};
+   const NN={nobreza:['NOBREZA','#2b4a80'],clero:['CLERO','#8a7a4a'],burguesia:['BURGUESIA','#a8641f'],povo:['POVO','#4f7a35'],guarda:['GUARDA','#8e2a22'],arcano:['ARCANO','#5e3592']};
+   const chip=(e,m=1)=>`<span class="dchip ${e.v>0?'up':'dn'}">${LB[e.k]||e.k} ${fmt(e.v*m)}</span>`;
+   const wk=S.vigs.reduce((a,g)=>{parse(g.fx).forEach(e=>a[e.k]=(a[e.k]||0)+e.v);return a},{});
+   const rest=S.vigs.reduce((a,g)=>{parse(g.fx).forEach(e=>a[e.k]=(a[e.k]||0)+e.v*g.left);return a},{});
+   const ew=wk.ouro||0, er=rest.ouro||0;
+   $('#decSum').innerHTML=S.vigs.length?`<div class="dsum">
+     <div><b>${S.vigs.length}</b><small>decreto${S.vigs.length>1?'s':''} em vigor</small></div>
+     <div><b class="${ew>=0?'pos':'neg'}">${fmt(ew)} ⚜</b><small>por semana, somando todos</small></div>
+     <div><b class="${er>=0?'pos':'neg'}">${fmt(er)} ⚜</b><small>ainda a ${er>=0?'receber':'pagar'} até o fim</small></div>
+     <div><b>${Math.min(...S.vigs.map(g=>g.left))} sem.</b><small>até o próximo vencer</small></div>
+     ${Object.keys(wk).filter(k=>k!=='ouro').map(k=>`<div><b class="${wk[k]>=0?'pos':'neg'}">${fmt(wk[k])}</b><small>${LB[k]} por semana</small></div>`).join('')}
+   </div>`:'';
+   $('#decList').innerHTML=S.vigs.length?S.vigs.slice().sort((a,b)=>a.left-b.left).map(g=>{
+     const tot=g.sem||g.left, done=tot-g.left, pct=Math.round(done/tot*100), fx=parse(g.fx), tag=NN[g.n];
+     const ate=g.w?g.w+tot:null, soon=g.left<=2;
+     return `<article class="dcard ${soon?'soon':''}">
+       <div class="dh"><div class="dseal">${g.selo||'📜'}</div><div class="dt"><b>${g.nome}</b>
+         <small>${g.quem?`A pedido de ${g.quem} · <i>${g.casa}</i>`:'Decreto da Coroa'}</small></div>
+         ${tag?`<span class="tag" style="background:${tag[1]}">${tag[0]}</span>`:''}${g.r?'<span class="tag" style="background:var(--blood)">⚠ ALTO RISCO</span>':''}</div>
+       ${g.log?`<p class="dorig">“${g.titulo}” — ${g.log}</p>`:''}
+       <div class="dgrid">
+         <div><small>EFEITO POR SEMANA</small><div>${fx.map(e=>chip(e)).join(' ')}</div></div>
+         <div><small>IMPACTO JÁ SENTIDO</small><div>${done?fx.map(e=>chip(e,done)).join(' '):'<span class="dim">começa nesta semana</span>'}</div></div>
+         <div><small>AINDA VAI PESAR</small><div>${fx.map(e=>chip(e,g.left)).join(' ')}</div></div>
+       </div>
+       <div class="dprog"><span>${g.w?`Assinado na semana ${pad(g.w)}`:'Em vigor'}</span><span>${soon?'⏳ ':''}faltam <b>${g.left}</b> de ${tot} semanas${ate?` · vence na semana ${pad(ate)}`:''}</span></div>
+       <div class="dbar"><i style="width:${pct}%"></i></div>
+     </article>`}).join(''):'<p class="empty">Nenhum decreto em vigor. O reino respira sem amarras.</p>';
+   const E=(S.vigsEnd||[]).slice(-8).reverse();
+   $('#decEnd').innerHTML=E.length?`<h3 class="dend">DECRETOS ENCERRADOS</h3>${E.map(g=>{const tot=g.sem||0;return `<div class="row"><div><b>${g.selo||'📜'} ${g.nome}</b><small>${g.w?`semana ${pad(g.w)} a ${pad(g.fim)}`:`encerrado na semana ${pad(g.fim)}`}${g.quem?` · a pedido de ${g.quem}`:''}</small></div><span>${tot?parse(g.fx).map(e=>chip(e,tot)).join(' '):''}</span></div>`}).join('')}`:'';
+  }
   const r=receita(), d=despesa(), vig=S.vigs.reduce((a,g)=>a+parse(g.fx).filter(e=>e.k==='ouro').reduce((x,e)=>x+e.v,0),0);
   const tin=totIn(),tout=totOut();
   $('#tesPanel').innerHTML=`<h2>O Cofre do Reino</h2><p class="lead">O Registro Financeiro Semanal: de onde vem o ouro de Arcadia e para onde ele vai.</p>
@@ -581,14 +639,14 @@ function decide(o){
   apply(opt.fx);
   {const T=st(); T[o]++; if(cur.r)T.risco++; if(cur.f)T.desd++; if(opt.vig)T.dec++; T.nich[cur.n]=(T.nich[cur.n]||0)+1;
    const C=S.consulted.length?1:0; if(C)T.semCons=(T.semCons||0); else T.semCons=(T.semCons||0)+1;}
-  if(opt.vig)S.vigs.push({nome:opt.vig.nome,left:opt.vig.sem,fx:opt.vig.fx});
+  if(opt.vig)S.vigs.push({nome:opt.vig.nome,left:opt.vig.sem,fx:opt.vig.fx,sem:opt.vig.sem,w:S.week,quem:cur.quem,casa:cur.casa,titulo:cur.titulo,selo:cur.selo,n:cur.n,log:opt.log,r:!!cur.r});
   if(opt.next)S.queue.push({id:opt.next[0],w:S.week+opt.next[1]});
   S.log.push({w:S.week,t:`${o==='sim'?'✔':'✕'} ${opt.log}`});
   // fechamento da semana
   const net=totIn()-totOut(); S.ouro+=net;
   S.vigs.forEach(g=>{apply(g.fx);g.left--});
   const ended=S.vigs.filter(g=>g.left<=0); S.vigs=S.vigs.filter(g=>g.left>0);
-  ended.forEach(g=>S.log.push({w:S.week,t:`📜 O decreto “${g.nome}” expirou.`}));
+  ended.forEach(g=>{S.log.push({w:S.week,t:`📜 O decreto “${g.nome}” expirou.`});(S.vigsEnd=S.vigsEnd||[]).push({...g,fim:S.week})});
   if(!S.consulted.length)S.aut=Math.min(100,S.aut+6);
   if(S.aut<25)S.nobreza=Math.max(0,S.nobreza-1);
   snap(cur.titulo,o);
