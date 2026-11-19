@@ -204,6 +204,41 @@ input[type=range]{width:100%;margin-top:8px;accent-color:var(--gold2)}
 .slot button:disabled{opacity:.35}
 .endimg{width:120px;height:120px;border-radius:50%;margin:0 auto 10px;display:block;border:2px solid var(--gold);filter:grayscale(.6)}
 .endbox{text-align:center}
+.mbox.end{width:min(980px,100%)}
+.esec{margin-top:22px;text-align:left;border-top:1px solid var(--line);padding-top:16px}
+.esec h3{font-family:var(--h);font-size:12px;letter-spacing:2.5px;color:var(--gold2);margin-bottom:10px;display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.esec h3 small{font-family:var(--t);font-size:12.5px;letter-spacing:0;color:var(--dim);font-weight:400}
+.sgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:8px}
+.sgrid div{border:1px solid var(--line);background:rgba(12,26,52,.55);padding:10px 12px;border-radius:2px}
+.sgrid b{display:block;font-family:var(--h);font-size:22px;font-weight:500;color:#f6ecd2}
+.sgrid small{font-size:12px;color:var(--dim);line-height:1.3;display:block}
+.chartbox{position:relative;border:1px solid var(--line);background:rgba(5,11,24,.55);border-radius:2px;padding:8px 8px 4px}
+.chartbox svg{width:100%;height:auto;display:block;overflow:visible}
+.chartbox .ln{fill:none;stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round;transition:opacity .25s}
+.chartbox .ln.draw{stroke-dasharray:var(--len);stroke-dashoffset:var(--len);animation:draw 1.6s cubic-bezier(.3,.7,.2,1) forwards}
+.chartbox .ln.off{opacity:.07}
+.chartbox .grid line{stroke:rgba(184,137,47,.14);stroke-width:1}
+.chartbox .grid text{fill:var(--dim);font-family:var(--h);font-size:10px}
+.chartbox .zero{stroke:rgba(208,86,74,.6);stroke-dasharray:4 4}
+.chartbox .cur{stroke:var(--gold2);stroke-width:1;opacity:0}
+.chartbox .dots circle{opacity:0}
+.tipbox{position:absolute;pointer-events:none;background:#0b1730;border:1px solid var(--gold);padding:8px 10px;border-radius:2px;font-size:12.5px;line-height:1.5;min-width:160px;opacity:0;transition:opacity .15s;z-index:3;box-shadow:0 8px 24px rgba(0,0,0,.5)}
+.tipbox b{font-family:var(--h);color:var(--gold2);font-size:11px;letter-spacing:1.5px;display:block;margin-bottom:2px}
+.tipbox em{display:block;font-family:var(--i);color:var(--txt);margin-bottom:4px;max-width:240px}
+.tipbox span{display:flex;justify-content:space-between;gap:14px}
+.legend{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 2px}
+.legend button{display:flex;align-items:center;gap:6px;font-size:12.5px;padding:4px 9px;border:1px solid var(--line);border-radius:2px;color:var(--txt);transition:.2s}
+.legend button i{width:14px;height:3px;border-radius:2px;display:block}
+.legend button.off{opacity:.4;text-decoration:line-through}
+.ntable{width:100%;border-collapse:collapse;font-size:14px}
+.ntable th{font-family:var(--h);font-size:10px;letter-spacing:2px;color:var(--dim);font-weight:500;text-align:right;padding:6px 8px;border-bottom:1px solid var(--line)}
+.ntable th:first-child,.ntable td:first-child{text-align:left}
+.ntable td{padding:7px 8px;border-bottom:1px dashed var(--line);text-align:right;font-variant-numeric:tabular-nums}
+.ntable td b{font-family:var(--h);font-weight:500}
+.moments{display:flex;flex-direction:column;gap:6px}
+.moments div{display:flex;gap:12px;font-size:14.5px;border-left:2px solid var(--gold);padding:4px 10px;background:rgba(12,26,52,.45)}
+.moments div b{font-family:var(--h);font-size:11px;letter-spacing:1px;color:var(--gold2);min-width:62px;padding-top:2px}
+@keyframes draw{to{stroke-dashoffset:0}}
 .endbox .stats{display:flex;justify-content:center;gap:22px;margin:18px 0;flex-wrap:wrap}
 .endbox .stats div b{display:block;font-family:var(--h);font-size:26px;color:var(--gold2);font-weight:500}
 .endbox .stats div small{font-family:var(--h);font-size:10px;letter-spacing:2px;color:var(--dim)}
@@ -345,12 +380,13 @@ footer{display:flex;justify-content:space-between;margin-top:30px;padding-top:14
 </div></div>
 
 <!-- fim -->
-<div class="mod" id="mEnd"><div class="mbox sm endbox">
+<div class="mod" id="mEnd"><div class="mbox end endbox">
   <img class="endimg" src="" data-img="brasao" alt="">
   <div class="eyebrow" id="endEye">FIM DO REINADO</div>
   <h2 id="endTitle"></h2>
   <p class="lead" id="endTxt" style="font-family:var(--i);font-size:18px;color:var(--txt)"></p>
   <div class="stats" id="endStats"></div>
+  <div id="endMore"></div>
   <p id="endBest" style="color:var(--dim)"></p>
   <button class="go" id="bAgain">↻ UM NOVO REINADO</button>
 </div></div>
@@ -517,7 +553,7 @@ function render(anim){renderHead();renderRes();renderCard(anim);renderAdv();rend
 /* ── ações ── */
 function consult(id){
   const a=ADV.find(x=>x.id===id); if(S.consulted.includes(id)||S.aut<3)return;
-  S.aut-=3; S.consulted.push(id); a.dom.forEach(k=>!S.rev.includes(k)&&S.rev.push(k));
+  S.aut-=3; S.consulted.push(id); st().cons++; a.dom.forEach(k=>!S.rev.includes(k)&&S.rev.push(k));
   sfx(440,.2,'triangle');renderCard();renderAdv();renderRes();
 }
 function score(opt){
@@ -531,7 +567,7 @@ function score(opt){
 }
 function askAll(){
   const cost=Math.max(1,10-3*S.consulted.filter(x=>x!=='todos').length); if(S.allAsked||S.aut<cost)return;
-  S.aut-=cost; S.allAsked=true; ADV.forEach(a=>{if(!S.consulted.includes(a.id))S.consulted.push(a.id)});
+  S.aut-=cost; S.allAsked=true; st().todos++; ADV.forEach(a=>{if(!S.consulted.includes(a.id))S.consulted.push(a.id)});
   S.rev=['ouro','guarda','nobreza','clero','burguesia','povo','next'];
   const a=score(cur.sim), b=score(cur.nao);
   S.recTxt=Math.abs(a-b)<2?'⚖ A CORTE SE DIVIDE · os dois caminhos pesam igual':`✦ A CORTE RECOMENDA: <b>${a>b?'ACEITAR':'RECUSAR'}</b>`;
@@ -543,6 +579,8 @@ function decide(o){
   if(S.over)return; const opt=cur[o]; chime();
   const before={};RES.forEach(r=>before[r.k]=S[r.k]);
   apply(opt.fx);
+  {const T=st(); T[o]++; if(cur.r)T.risco++; if(cur.f)T.desd++; if(opt.vig)T.dec++; T.nich[cur.n]=(T.nich[cur.n]||0)+1;
+   const C=S.consulted.length?1:0; if(C)T.semCons=(T.semCons||0); else T.semCons=(T.semCons||0)+1;}
   if(opt.vig)S.vigs.push({nome:opt.vig.nome,left:opt.vig.sem,fx:opt.vig.fx});
   if(opt.next)S.queue.push({id:opt.next[0],w:S.week+opt.next[1]});
   S.log.push({w:S.week,t:`${o==='sim'?'✔':'✕'} ${opt.log}`});
@@ -553,6 +591,7 @@ function decide(o){
   ended.forEach(g=>S.log.push({w:S.week,t:`📜 O decreto “${g.nome}” expirou.`}));
   if(!S.consulted.length)S.aut=Math.min(100,S.aut+6);
   if(S.aut<25)S.nobreza=Math.max(0,S.nobreza-1);
+  snap(cur.titulo,o);
   // resumo
   const diffs=RES.map(r=>[r,S[r.k]-before[r.k]]).filter(([r,d])=>Math.round(d)!==0);
   toast(`<b>SEMANA ${pad(S.week)} ENCERRADA</b><br>${diffs.map(([r,d])=>`${r.i} ${fmt(d)}`).join(' &nbsp; ')||'Nada mudou.'}${ended.length?`<br>📜 Expirou: ${ended.map(g=>g.nome).join(', ')}`:''}`);
@@ -562,6 +601,8 @@ function decide(o){
     diffs.forEach(([r])=>{const el=$('#rc-'+r.k);el&&el.classList.add('bump')});
   },430);
 }
+function st(){if(!S.st)S.st={sim:0,nao:0,cons:0,todos:0,dec:0,desd:0,risco:0,nich:{},semCons:0};return S.st}
+function snap(t,o){if(!S.hist)S.hist=[];S.hist.push({w:S.week,ouro:Math.round(S.ouro),guarda:Math.round(S.guarda),nobreza:Math.round(S.nobreza),clero:Math.round(S.clero),burguesia:Math.round(S.burguesia),povo:Math.round(S.povo),aut:Math.round(S.aut),t:t||'',o:o||''})}
 function next(){
   S.consulted=[];S.rev=[];S.allAsked=false;S.recTxt='';
   const due=S.queue.findIndex(q=>q.w<=S.week);
@@ -587,9 +628,91 @@ function showEnd(k){
   $('#endTitle').textContent=t; $('#endTxt').textContent=txt;
   $('#endStats').innerHTML=`<div><b>${w}</b><small>SEMANAS</small></div><div><b>${S.log.filter(l=>/^[✔✕]/.test(l.t)).length}</b><small>DECISÕES</small></div><div><b>${Math.round(S.ouro)}</b><small>OURO FINAL</small></div>`;
   $('#endBest').textContent=nb?'🏆 O reinado mais longo já registrado nos Arquivos.':best?`Reinado mais longo: ${best} semanas.`:'';
-  open('mEnd');
+  renderEndMore(k);
+  open('mEnd'); $('#mEnd .mbox').scrollTop=0;
 }
 function save(){store.set('arcadia_coroa_v1',S)}
+
+/* ── estatísticas do fim ── */
+const SERIES=[['nobreza','Nobreza'],['clero','Clero'],['burguesia','Burguesia'],['povo','Povo'],['guarda','Guarda Real']];
+function chartSVG(id,H,keys,yMin,yMax,ticks,zero){
+  const h=S.hist, W=900, P={l:44,r:14,t:12,b:26}, iw=W-P.l-P.r, ih=H-P.t-P.b, n=Math.max(1,h.length-1);
+  const X=i=>P.l+iw*i/n, Y=v=>P.t+ih*(1-(v-yMin)/(yMax-yMin||1));
+  let g='<g class="grid">'+ticks.map(v=>`<line x1="${P.l}" x2="${W-P.r}" y1="${Y(v)}" y2="${Y(v)}"/><text x="${P.l-8}" y="${Y(v)+3}" text-anchor="end">${v}</text>`).join('');
+  const step=Math.max(1,Math.ceil(n/12));
+  for(let i=0;i<h.length;i+=step)g+=`<text x="${X(i)}" y="${H-8}" text-anchor="middle">${h[i].w===0?'⚜':h[i].w}</text>`;
+  g+='</g>';
+  if(zero!==undefined)g+=`<line class="zero" x1="${P.l}" x2="${W-P.r}" y1="${Y(zero)}" y2="${Y(zero)}"/>`;
+  const lines=keys.map(k=>{const pts=h.map((p,i)=>`${X(i).toFixed(1)},${Y(p[k]).toFixed(1)}`).join(' ');
+    return `<polyline class="ln draw" data-k="${k}" points="${pts}" stroke="var(--r-${k})"/>`}).join('');
+  const dots=keys.map(k=>`<circle data-k="${k}" r="4" fill="var(--r-${k})" stroke="#050b18" stroke-width="1.5"/>`).join('');
+  return `<div class="chartbox" id="${id}"><svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" style="aspect-ratio:${W}/${H}">${g}${lines}<line class="cur" y1="${P.t}" y2="${H-P.b}"/><g class="dots">${dots}</g><rect x="${P.l}" y="${P.t}" width="${iw}" height="${ih}" fill="transparent"/></svg><div class="tipbox"></div></div>`;
+}
+function wireChart(id,keys,H,yMin,yMax){
+  const box=$('#'+id); if(!box)return; const svg=box.querySelector('svg'), tip=box.querySelector('.tipbox'), cl=box.querySelector('.cur'), h=S.hist;
+  box.querySelectorAll('.ln').forEach(l=>{const L=Math.ceil(l.getTotalLength?l.getTotalLength():2000);l.style.setProperty('--len',L)});
+  const W=900,P={l:44,r:14,t:12,b:26},iw=W-P.l-P.r,ih=H-P.t-P.b,n=Math.max(1,h.length-1);
+  const Y=v=>P.t+ih*(1-(v-yMin)/(yMax-yMin||1));
+  svg.addEventListener('pointermove',e=>{const r=svg.getBoundingClientRect();const x=(e.clientX-r.left)/r.width*W;
+    const i=Math.max(0,Math.min(h.length-1,Math.round((x-P.l)/iw*n)));const p=h[i],cx=P.l+iw*i/n;
+    cl.setAttribute('x1',cx);cl.setAttribute('x2',cx);cl.style.opacity=1;
+    box.querySelectorAll('.dots circle').forEach(c=>{const k=c.dataset.k;c.setAttribute('cx',cx);c.setAttribute('cy',Y(p[k]));c.style.opacity=box.querySelector(`.ln[data-k="${k}"]`).classList.contains('off')?0:1});
+    const lab={ouro:'⚜ Ouro',guarda:'⚔️ Guarda',nobreza:'👑 Nobreza',clero:'⛪ Clero',burguesia:'⚖️ Burguesia',povo:'🌾 Povo'};
+    tip.innerHTML=`<b>${p.w===0?'COROAÇÃO':'SEMANA '+pad(p.w)}</b>${p.t&&p.w?`<em>${p.o==='sim'?'✔':'✕'} ${p.t}</em>`:''}${keys.map(k=>`<span><i style="color:var(--r-${k})">${lab[k]}</i><strong>${p[k]}${k==='ouro'?'':'%'}</strong></span>`).join('')}`;
+    const bx=box.getBoundingClientRect();let left=e.clientX-bx.left+14;if(left>bx.width-200)left=e.clientX-bx.left-214;
+    tip.style.left=left+'px';tip.style.top='10px';tip.style.opacity=1});
+  svg.addEventListener('pointerleave',()=>{tip.style.opacity=0;cl.style.opacity=0;box.querySelectorAll('.dots circle').forEach(c=>c.style.opacity=0)});
+}
+function renderEndMore(k){
+  const h=S.hist||[], T=st(), w=S.week, dec=T.sim+T.nao;
+  if(h.length<2){$('#endMore').innerHTML='';return}
+  const vals=key=>h.map(p=>p[key]);
+  const mm=key=>{const v=vals(key);const mx=Math.max(...v),mn=Math.min(...v);return {mx,mn,wmx:h[v.indexOf(mx)].w,wmn:h[v.indexOf(mn)].w,ini:v[0],fim:v[v.length-1]}};
+  // maiores viradas
+  let mom=[];for(let i=1;i<h.length;i++){let tot=0,big=null;
+    ['ouro',...SERIES.map(s=>s[0])].forEach(key=>{let d=h[i][key]-h[i-1][key];const sc=key==='ouro'?Math.abs(d)/8:Math.abs(d);tot+=sc;if(!big||sc>big.sc)big={key,d,sc}});
+    mom.push({p:h[i],tot,big})}
+  mom=mom.sort((a,b)=>b.tot-a.tot).slice(0,4).sort((a,b)=>a.p.w-b.p.w);
+  const lab={ouro:'ouro',guarda:'Guarda',nobreza:'Nobreza',clero:'Clero',burguesia:'Burguesia',povo:'Povo'};
+  const o=mm('ouro');
+  const nichoTop=Object.entries(T.nich).sort((a,b)=>b[1]-a[1])[0];
+  const NN={nobreza:'Nobreza',clero:'Clero',burguesia:'Burguesia',povo:'Povo',guarda:'Guarda',arcano:'Arcano'};
+  const ticksO=(()=>{const lo=Math.min(0,o.mn),hi=Math.max(o.mx,50);const st=Math.max(25,Math.ceil((hi-lo)/4/25)*25);const a=[];for(let v=Math.floor(lo/st)*st;v<=hi+st;v+=st)a.push(v);return a})();
+  const oMin=ticksO[0], oMax=ticksO[ticksO.length-1];
+  $('#endMore').innerHTML=`
+   <div class="esec"><h3>O REINADO EM NÚMEROS</h3><div class="sgrid">
+     <div><b>${dec}</b><small>audiências julgadas</small></div>
+     <div><b>${T.sim} · ${T.nao}</b><small>aceitas · recusadas</small></div>
+     <div><b>${dec?Math.round(T.sim/dec*100):0}%</b><small>dos pedidos aceitos</small></div>
+     <div><b>${T.risco}</b><small>audiências de alto risco</small></div>
+     <div><b>${T.desd}</b><small>desdobramentos vividos</small></div>
+     <div><b>${T.dec}</b><small>decretos assinados</small></div>
+     <div><b>${T.cons}</b><small>conselhos individuais</small></div>
+     <div><b>${T.todos}</b><small>vezes que ouviu a Corte inteira</small></div>
+     <div><b>${T.semCons||0}</b><small>semanas decidindo sozinho</small></div>
+     <div><b>${Math.round(S.aut)}%</b><small>autoridade final</small></div>
+     <div><b>${o.mx}</b><small>ouro máximo (sem. ${o.wmx||'⚜'})</small></div>
+     <div><b>${o.mn}</b><small>ouro mínimo (sem. ${o.wmn||'⚜'})</small></div>
+     <div><b>${nichoTop?NN[nichoTop[0]]:'—'}</b><small>grupo que mais pediu${nichoTop?` (${nichoTop[1]}×)`:''}</small></div>
+   </div></div>
+   <div class="esec"><h3>LINHA DO TEMPO · OS GRUPOS E A GUARDA <small>Passe o mouse para ver cada semana</small></h3>
+     ${chartSVG('chN',300,SERIES.map(s=>s[0]),0,100,[0,25,50,75,100])}
+     <div class="legend" id="legN">${SERIES.map(([k,n])=>`<button data-k="${k}"><i style="background:var(--r-${k})"></i>${n}</button>`).join('')}</div>
+   </div>
+   <div class="esec"><h3>LINHA DO TEMPO · O COFRE <small>A linha vermelha é o zero</small></h3>
+     ${chartSVG('chO',200,['ouro'],oMin,oMax,ticksO,0)}
+   </div>
+   <div class="esec"><h3>CADA FORÇA DO REINO</h3><table class="ntable">
+     <tr><th>Força</th><th>Início</th><th>Final</th><th>Variação</th><th>Pico</th><th>Fundo</th></tr>
+     ${[['ouro','⚜ Ouro'],...SERIES.map(([k,n])=>[k,n])].map(([key,n])=>{const m=mm(key),d=m.fim-m.ini,u=key==='ouro'?'':'%';
+       return `<tr><td><b style="color:var(--r-${key})">${n}</b></td><td>${m.ini}${u}</td><td>${m.fim}${u}</td><td class="${d>=0?'pos':'neg'}">${fmt(d)}</td><td>${m.mx}${u} <small style="color:var(--dim)">s.${m.wmx||'⚜'}</small></td><td>${m.mn}${u} <small style="color:var(--dim)">s.${m.wmn||'⚜'}</small></td></tr>`}).join('')}
+   </table></div>
+   <div class="esec"><h3>AS SEMANAS QUE MUDARAM TUDO</h3><div class="moments">
+     ${mom.map(m=>`<div><b>SEM. ${pad(m.p.w)}</b><span>${m.p.o==='sim'?'✔':'✕'} ${m.p.t} <small style="color:var(--dim)">· ${lab[m.big.key]} ${fmt(m.big.d)}${m.big.key==='ouro'?' ⚜':''}</small></span></div>`).join('')}
+   </div></div>`;
+  wireChart('chN',SERIES.map(s=>s[0]),300,0,100); wireChart('chO',['ouro'],200,oMin,oMax);
+  $$('#legN button').forEach(b=>b.onclick=()=>{b.classList.toggle('off');$(`#chN .ln[data-k="${b.dataset.k}"]`).classList.toggle('off')});
+}
 
 /* ── coroação ── */
 const SLK=['ouro','guarda','nobreza','clero','burguesia','povo'];
@@ -621,7 +744,7 @@ function start(){
   const nome=($('#inNome').value||'Danilo').trim().slice(0,22);
   S={nome,dif:setupSel,week:1,...setupVals,aut:60,vigs:[],queue:[],used:[],log:[],debt:0,over:false,seen:0,consulted:[],rev:[],allAsked:false,recTxt:''};
   S.log.push({w:1,t:`👑 ${nome} é coroado em Arcadia. Que o reinado seja justo, equilibrado e poderoso.`});
-  next(); save(); close('mSetup'); render(true); chime();
+  st(); S.hist=[]; snap('Coroação',''); S.hist[0].w=0; next(); save(); close('mSetup'); render(true); chime();
   toast(`<b>LONGA VIDA A ${nome.toUpperCase()}</b><br>A primeira audiência já espera na Sala do Trono.`);
 }
 
