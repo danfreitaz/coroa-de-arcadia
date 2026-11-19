@@ -1,0 +1,4513 @@
+{
+ "gerado": "2026-11-19T15:35:23.409Z",
+ "total": 806,
+ "porLote": {
+  "base (lote I-V)": 177,
+  "desdobramento (lote I-V)": 29,
+  "risco (lote VI-VIII)": 100,
+  "normal": 200,
+  "desd": 100,
+  "decreto": 100,
+  "risco": 100
+ },
+ "personagens": [
+  {
+   "nome": "Capitã Valkiria",
+   "casas": [
+    "Guarda Real"
+   ],
+   "grupos": [
+    "nobreza",
+    "povo",
+    "arcano",
+    "guarda",
+    "clero"
+   ],
+   "aparicoes": 50,
+   "pedidos": [
+    "traidor2",
+    "ponte2",
+    "saque",
+    "sabotador",
+    "muralha",
+    "recrutas",
+    "desertor",
+    "guerra",
+    "golpe",
+    "confissao2",
+    "valk_ferida",
+    "menino_heroi",
+    "treino",
+    "espiao_morgrath",
+    "grifo2",
+    "dragao2",
+    "desertores2",
+    "orfa_valk",
+    "r_regencia2",
+    "r_exilio",
+    "r_incendio_cidade",
+    "r_golpe_militar",
+    "r_muralha_total",
+    "r_lealdade2",
+    "r_cerco",
+    "r_reforma_guarda",
+    "r_arma2",
+    "n_quartel_novo",
+    "n_guarda_mulheres",
+    "n_cerco_treino",
+    "n_menina_valk",
+    "d_mocas2",
+    "d_sino2",
+    "d_sino3",
+    "d_mont4",
+    "d_cometa3",
+    "d_fera4",
+    "d_negro3",
+    "d_ovo3",
+    "d_cozinha2",
+    "d_grifos3",
+    "e_salario_soldado",
+    "e_turno_guarda",
+    "x_coroa_roubada",
+    "x_ultimo_grifo",
+    "x_rei_sequestrado",
+    "x_kael_traicao",
+    "x_guerra_civil",
+    "x_ordem_grifo_guerra",
+    "x_sombras_cidade"
+   ]
+  },
+  {
+   "nome": "Irmã Maelis",
+   "casas": [
+    "Casa de Cura"
+   ],
+   "grupos": [
+    "clero",
+    "povo",
+    "nobreza",
+    "guarda",
+    "burguesia"
+   ],
+   "aparicoes": 30,
+   "pedidos": [
+    "curandeiras",
+    "epidemia",
+    "refugiados",
+    "orfanato",
+    "mendicancia",
+    "refugio_inverno",
+    "curas_banho",
+    "r_peste_negra",
+    "r_milagre_rei2",
+    "r_peste_ratos",
+    "r_hospital",
+    "r_rei_doente",
+    "n_bruxa_mercado",
+    "n_criancas_rua",
+    "n_hospital_templo",
+    "n_soldado_cego",
+    "n_doacao_sangue",
+    "d_agua2",
+    "d_gado3",
+    "d_gado4",
+    "d_canal3",
+    "e_sopa_inverno",
+    "e_quarentena_porto",
+    "e_hospital_campanha",
+    "e_ajuda_refugiados",
+    "x_peste_rio",
+    "x_epidemia_nobres",
+    "x_peste_ratos2",
+    "x_peste_castelo",
+    "x_valkiria_ferida"
+   ]
+  },
+  {
+   "nome": "Coletor-Mor Aldous",
+   "casas": [
+    "Tesouro Real"
+   ],
+   "grupos": [
+    "povo",
+    "burguesia",
+    "nobreza",
+    "clero"
+   ],
+   "aparicoes": 28,
+   "pedidos": [
+    "aumento",
+    "cambio2",
+    "leilao",
+    "censo",
+    "r_titulos",
+    "r_tesouro_templo",
+    "r_moeda_nova",
+    "n_igreja_rica",
+    "n_moeda_cobre",
+    "d_falsa1",
+    "d_banco3",
+    "e_imposto_janela",
+    "e_pedagio_ponte",
+    "e_moeda_cobre_decreto",
+    "e_racionamento",
+    "e_taxa_estrangeiro",
+    "e_imposto_luxo",
+    "e_tributo_peixe",
+    "e_tributo_porto",
+    "e_tributo_cerveja",
+    "e_peregrinos_taxa",
+    "e_tributo_ouro_mina",
+    "e_imposto_heranca",
+    "e_taxa_carruagem",
+    "x_imposto_guerra",
+    "x_imposto_templo",
+    "x_ouro_falso_reino",
+    "x_ultimo_trigo"
+   ]
+  },
+  {
+   "nome": "Arquimaga Ondine",
+   "casas": [
+    "Ala Arcana"
+   ],
+   "grupos": [
+    "arcano"
+   ],
+   "aparicoes": 24,
+   "pedidos": [
+    "hereges2",
+    "selo",
+    "vhalkir",
+    "fonte2",
+    "aprendiz_magia",
+    "runa_apagada",
+    "lua_vermelha",
+    "r_ritual",
+    "r_portal2",
+    "r_fonte_magia",
+    "r_vhalkir_abre",
+    "r_dragao_alianca",
+    "n_runa_casa",
+    "n_aprendiz_fugido",
+    "d_agua3",
+    "d_visao3",
+    "d_ovo2",
+    "d_navio2",
+    "e_licenca_magia",
+    "x_dragao_tributo",
+    "x_selo_rompe",
+    "x_alianca_dragao",
+    "x_peste_magica",
+    "x_sacrificio_ondine"
+   ]
+  },
+  {
+   "nome": "Banx",
+   "casas": [
+    "Bardo Arcano"
+   ],
+   "grupos": [
+    "arcano",
+    "nobreza",
+    "povo",
+    "guarda",
+    "clero"
+   ],
+   "aparicoes": 21,
+   "pedidos": [
+    "vigilantes",
+    "complo",
+    "banx_show",
+    "escola_musica",
+    "livro_vigilante",
+    "caderno2",
+    "festa_rei",
+    "r_jubileu",
+    "r_escandalo",
+    "r_espioes",
+    "r_vigilantes_guerra",
+    "r_ultima_ceia",
+    "n_cantiga_rei",
+    "n_banx_romance",
+    "n_aniversario_corte",
+    "d_cozinha3",
+    "e_artistas_rua",
+    "e_vigilancia_vigilantes",
+    "x_ondine_traidora",
+    "x_templo_ouro_morgrath",
+    "x_ultimo_banquete"
+   ]
+  },
+  {
+   "nome": "Conselheiro Jodyr",
+   "casas": [
+    "Arquivos Reais",
+    "Conselho Real"
+   ],
+   "grupos": [
+    "nobreza",
+    "guarda",
+    "povo",
+    "burguesia"
+   ],
+   "aparicoes": 20,
+   "pedidos": [
+    "arquivos",
+    "jodyr_coruja",
+    "jodyr_valk",
+    "lei_mao",
+    "embaixada",
+    "herdeiro",
+    "r_confisco",
+    "r_lei_terra",
+    "r_lealdade",
+    "r_banco_real",
+    "r_trigo_publico",
+    "n_jodyr_livro",
+    "e_premio_inventor",
+    "e_juros_maximos",
+    "e_proibe_duelo",
+    "e_fundo_crise",
+    "e_proibe_servidao",
+    "x_falencia_coroa",
+    "x_tributo_tudo",
+    "x_trono_vazio"
+   ]
+  },
+  {
+   "nome": "Bispo Aurelian Vey",
+   "casas": [
+    "Templo da Aurora"
+   ],
+   "grupos": [
+    "clero",
+    "arcano"
+   ],
+   "aparicoes": 17,
+   "pedidos": [
+    "dizimo",
+    "pregador",
+    "jejum",
+    "casamento_proibido",
+    "r_excomunhao",
+    "r_templo_novo",
+    "r_chuva_sangue",
+    "r_dizimo_total",
+    "n_bispo_jantar",
+    "n_pregador_cego",
+    "n_jejum_quaresma",
+    "d_sino4",
+    "e_bencao_semanal",
+    "e_dizimo_coroa",
+    "e_proibe_jogos",
+    "x_bispo_coroa",
+    "x_magia_proibida"
+   ]
+  },
+  {
+   "nome": "Embaixador Lucan Thessaly",
+   "casas": [
+    "Reino de Valdoria"
+   ],
+   "grupos": [
+    "burguesia",
+    "nobreza",
+    "guarda"
+   ],
+   "aparicoes": 17,
+   "pedidos": [
+    "tratado",
+    "vinho_valdoria",
+    "princesa",
+    "tributo_valdoria",
+    "valdoria_guerra",
+    "valdoria_magoa",
+    "r_alianca_militar",
+    "r_coroacao_valdoria",
+    "n_valdoria_bolsa",
+    "d_prin1",
+    "d_prin3",
+    "d_ilha2",
+    "e_bolsa_valdoria",
+    "x_valdoria_divida",
+    "x_guerra_valdoria",
+    "x_concilio_reis",
+    "x_aliados_traem"
+   ]
+  },
+  {
+   "nome": "Duque Aldren Valcourt",
+   "casas": [
+    "Casa Valcourt"
+   ],
+   "grupos": [
+    "nobreza",
+    "arcano"
+   ],
+   "aparicoes": 15,
+   "pedidos": [
+    "banquete",
+    "nomeacao",
+    "conspira_jantar",
+    "feitico_amor",
+    "bufao",
+    "r_regencia",
+    "n_retrato",
+    "n_festim",
+    "n_estatua_quebrada",
+    "d_mont2",
+    "d_pref4",
+    "e_vinho_corte",
+    "x_fuga_nobres",
+    "x_jodyr_preso",
+    "x_censura"
+   ]
+  },
+  {
+   "nome": "Sumo-Sacerdotisa Elowen",
+   "casas": [
+    "Templo da Aurora"
+   ],
+   "grupos": [
+    "clero",
+    "arcano"
+   ],
+   "aparicoes": 15,
+   "pedidos": [
+    "templo",
+    "reliquia2",
+    "templo_terras",
+    "eclipse",
+    "r_excomunhao2",
+    "r_santo",
+    "r_concilio",
+    "r_maldicao",
+    "n_relicario",
+    "n_milagre_falso",
+    "d_cometa4",
+    "d_ouro3",
+    "e_guarda_templo",
+    "x_ouro_templo",
+    "x_ouro_igreja_morgrath"
+   ]
+  },
+  {
+   "nome": "Velho Garrick",
+   "casas": [
+    "Camponeses do Vale"
+   ],
+   "grupos": [
+    "povo",
+    "burguesia"
+   ],
+   "aparicoes": 14,
+   "pedidos": [
+    "fome",
+    "padeiros2",
+    "festa_junina",
+    "migrantes_vale",
+    "praga_gafanhoto",
+    "colheita_farta",
+    "r_fome_grande",
+    "n_fome_inverno",
+    "n_trigo_negro",
+    "d_raposa1",
+    "d_raposa4",
+    "e_premio_colheita",
+    "e_conselho_vilas",
+    "x_fome_cidade"
+   ]
+  },
+  {
+   "nome": "Mago Theron Ashgrave",
+   "casas": [
+    "Ala Arcana"
+   ],
+   "grupos": [
+    "arcano",
+    "guarda"
+   ],
+   "aparicoes": 14,
+   "pedidos": [
+    "runas",
+    "chuva_magica",
+    "familiar",
+    "ponte_magica",
+    "ponte_luz2",
+    "r_portal",
+    "r_arma_secreta",
+    "n_coruja_falante",
+    "n_vela_eterna",
+    "n_ondine_descanso",
+    "x_ondine_morre",
+    "x_magos_fogem",
+    "x_mago_negro",
+    "x_portal_morgrath"
+   ]
+  },
+  {
+   "nome": "Pescador Tomé",
+   "casas": [
+    "Vila do Rio"
+   ],
+   "grupos": [
+    "povo",
+    "arcano"
+   ],
+   "aparicoes": 13,
+   "pedidos": [
+    "serpente",
+    "enchente",
+    "nevoa",
+    "lenda_lago",
+    "r_enchente_grande",
+    "n_pescadores_rede",
+    "n_lago_aguas",
+    "n_rio_peixe_morto",
+    "d_agua1",
+    "d_agua4",
+    "d_navio3",
+    "e_frota_pesca",
+    "x_cheia_seculo"
+   ]
+  },
+  {
+   "nome": "General Thorin",
+   "casas": [
+    "Forte Thorendis"
+   ],
+   "grupos": [
+    "guarda"
+   ],
+   "aparicoes": 13,
+   "pedidos": [
+    "thorin",
+    "valk_pai",
+    "exercito_vale",
+    "r_invasao",
+    "n_prisioneiros",
+    "d_mocas4",
+    "d_torre3",
+    "e_estoque_guerra",
+    "e_tropa_fronteira",
+    "e_tributo_vila_norte",
+    "x_ponte_seca",
+    "x_terra_queimada",
+    "x_ultima_batalha"
+   ]
+  },
+  {
+   "nome": "Serina Valdimere",
+   "casas": [
+    "Biblioteca Real"
+   ],
+   "grupos": [
+    "clero",
+    "arcano",
+    "nobreza",
+    "burguesia",
+    "povo"
+   ],
+   "aparicoes": 13,
+   "pedidos": [
+    "serina",
+    "biblioteca_proibida",
+    "sala2",
+    "r_livro_mortos",
+    "n_arqueologia",
+    "n_jodyr_irma",
+    "d_ilha3",
+    "d_estranho2",
+    "e_bibliotecas",
+    "x_reliquia_vhalkir",
+    "x_fogo_biblioteca",
+    "x_coroa_negra_rei",
+    "x_tesouro_fundador"
+   ]
+  },
+  {
+   "nome": "Irmão Tobias",
+   "casas": [
+    "Templo da Aurora"
+   ],
+   "grupos": [
+    "clero",
+    "povo"
+   ],
+   "aparicoes": 11,
+   "pedidos": [
+    "colheita",
+    "sinos",
+    "reliquias_roubadas",
+    "arco_iris",
+    "n_quermesse",
+    "n_procissao",
+    "n_batismo_massa",
+    "d_cometa1",
+    "d_ouro1",
+    "e_dote_noivas",
+    "x_templo_cai"
+   ]
+  },
+  {
+   "nome": "Mestra Ilsa Brannoc",
+   "casas": [
+    "Guilda dos Mercadores"
+   ],
+   "grupos": [
+    "burguesia",
+    "nobreza"
+   ],
+   "aparicoes": 11,
+   "pedidos": [
+    "feira",
+    "moeda2",
+    "aprendizes",
+    "incendio_mercado",
+    "r_falencia",
+    "r_feira_mundial",
+    "d_sombra1",
+    "d_falsa3",
+    "e_feira_semanal",
+    "e_conselho_mercadores",
+    "x_casa_nova"
+   ]
+  },
+  {
+   "nome": "Mestre-de-obras Dorran",
+   "casas": [
+    "Guilda dos Pedreiros"
+   ],
+   "grupos": [
+    "burguesia",
+    "guarda",
+    "povo",
+    "clero"
+   ],
+   "aparicoes": 11,
+   "pedidos": [
+    "ponte",
+    "muralha_oeste",
+    "terremoto",
+    "n_campanario",
+    "n_ponte_levadica",
+    "n_muralha_musgo",
+    "d_balsa3",
+    "d_canal1",
+    "e_estradas",
+    "e_obras_publicas",
+    "x_terremoto_grande"
+   ]
+  },
+  {
+   "nome": "Jovem Tomas",
+   "casas": [
+    "Aprendizes das guildas"
+   ],
+   "grupos": [
+    "povo"
+   ],
+   "aparicoes": 11,
+   "pedidos": [
+    "greve",
+    "r_revolta_vale",
+    "r_milicia_povo",
+    "r_greve_geral",
+    "n_vila_nova",
+    "d_acad3",
+    "d_pref2",
+    "e_aluguel_maximo",
+    "e_casas_povo",
+    "e_lei_trabalho",
+    "x_revolucao"
+   ]
+  },
+  {
+   "nome": "Tenente Kael",
+   "casas": [
+    "Guarda Real"
+   ],
+   "grupos": [
+    "guarda",
+    "nobreza"
+   ],
+   "aparicoes": 11,
+   "pedidos": [
+    "torre_fogo",
+    "r_traicao_guarda",
+    "r_thorin_morre",
+    "n_escudeiros",
+    "n_bravura",
+    "n_valk_ferias",
+    "d_prin2",
+    "d_torre1",
+    "d_arsenal2",
+    "e_milicia_vila",
+    "x_juramento_guarda"
+   ]
+  },
+  {
+   "nome": "Lady Mirela Ashfeld",
+   "casas": [
+    "Casa Ashfeld"
+   ],
+   "grupos": [
+    "nobreza",
+    "povo"
+   ],
+   "aparicoes": 10,
+   "pedidos": [
+    "heranca",
+    "fofoca_corte",
+    "r_dote_real",
+    "r_lei_mulheres",
+    "n_torneio_poesia",
+    "n_estudo_herdeiro",
+    "n_pato_real",
+    "d_mont3",
+    "d_gemeo1",
+    "x_casa_ashfeld_cai"
+   ]
+  },
+  {
+   "nome": "Sargento Brenn",
+   "casas": [
+    "Guarda Real"
+   ],
+   "grupos": [
+    "guarda",
+    "povo"
+   ],
+   "aparicoes": 10,
+   "pedidos": [
+    "soldo",
+    "r_desertores_massa",
+    "n_guarda_noturna",
+    "n_bandido_famoso",
+    "n_sentinela_dormiu",
+    "d_raposa2",
+    "d_sombra3",
+    "e_guarda_estrada",
+    "x_motim_guarda",
+    "x_fome_guarda"
+   ]
+  },
+  {
+   "nome": "Batedor Fynn",
+   "casas": [
+    "Patrulha do Sul",
+    "Patrulha do Norte"
+   ],
+   "grupos": [
+    "guarda",
+    "arcano"
+   ],
+   "aparicoes": 10,
+   "pedidos": [
+    "fronteira_sul",
+    "r_ponte_norte",
+    "n_mapa_fronteira",
+    "n_viagem_norte",
+    "d_torre2",
+    "e_toque_recolher_norte",
+    "e_estradas_norte",
+    "x_grifos_morgrath",
+    "x_vila_vhalkir",
+    "x_invasao_norte"
+   ]
+  },
+  {
+   "nome": "Mestra Fen das Águas",
+   "casas": [
+    "Poços da Cidade"
+   ],
+   "grupos": [
+    "povo"
+   ],
+   "aparicoes": 9,
+   "pedidos": [
+    "pocos",
+    "praga_ratos",
+    "feiticeiro_rua",
+    "r_seca",
+    "n_cacimba",
+    "n_fonte_desejos",
+    "e_lanternas",
+    "e_campanha_limpeza",
+    "x_veneno_pocos"
+   ]
+  },
+  {
+   "nome": "Taverneira Bessa",
+   "casas": [
+    "Taverna do Sino"
+   ],
+   "grupos": [
+    "povo",
+    "burguesia",
+    "guarda",
+    "arcano"
+   ],
+   "aparicoes": 9,
+   "pedidos": [
+    "recolher",
+    "mercado_noturno",
+    "guarda_corrupta",
+    "n_jogadores",
+    "n_tavernas_impostos",
+    "n_mago_bebado",
+    "d_estranho1",
+    "e_licenca_taverna",
+    "e_mercado_noturno2"
+   ]
+  },
+  {
+   "nome": "Inspetor Garreth",
+   "casas": [
+    "Fiscais do Mercado"
+   ],
+   "grupos": [
+    "burguesia",
+    "povo"
+   ],
+   "aparicoes": 9,
+   "pedidos": [
+    "pesos",
+    "falsificador",
+    "r_contrabando",
+    "n_balanca_publica",
+    "n_pombos_praga",
+    "d_sombra2",
+    "d_falsa2",
+    "e_policia_mercado",
+    "x_mercado_negro"
+   ]
+  },
+  {
+   "nome": "Velha Morwen",
+   "casas": [
+    "Floresta Enevoada"
+   ],
+   "grupos": [
+    "arcano",
+    "povo"
+   ],
+   "aparicoes": 8,
+   "pedidos": [
+    "feiticeira",
+    "curandeira_vila",
+    "r_feiticeira_rainha",
+    "n_cristal_cura",
+    "n_ervanario",
+    "d_fera3",
+    "e_protecao_florestas",
+    "e_vacina_morwen"
+   ]
+  },
+  {
+   "nome": "Lavradora Ana",
+   "casas": [
+    "Vila de Pedraverde"
+   ],
+   "grupos": [
+    "povo",
+    "guarda",
+    "burguesia"
+   ],
+   "aparicoes": 8,
+   "pedidos": [
+    "casamento_vila",
+    "n_feira_troca",
+    "n_herdeira_vila",
+    "n_guarnicao_vila",
+    "n_lavoura_cooperativa",
+    "d_mocas1",
+    "d_banco2",
+    "e_sementes"
+   ]
+  },
+  {
+   "nome": "Criador Bento Lã",
+   "casas": [
+    "Pastores das Colinas",
+    "Pastos das Colinas"
+   ],
+   "grupos": [
+    "povo",
+    "burguesia"
+   ],
+   "aparicoes": 8,
+   "pedidos": [
+    "feira_animais",
+    "r_praga_gado",
+    "n_gado_doente",
+    "n_mercado_animais",
+    "d_gado2",
+    "d_grifos1",
+    "e_exportar_la",
+    "x_peste_gado_reino"
+   ]
+  },
+  {
+   "nome": "Barão Halvard Crane",
+   "casas": [
+    "Casa Crane"
+   ],
+   "grupos": [
+    "nobreza",
+    "clero"
+   ],
+   "aparicoes": 7,
+   "pedidos": [
+    "mendigos",
+    "duelo",
+    "servos",
+    "chapeu",
+    "n_cao_caca",
+    "e_lei_esmola",
+    "x_casa_crane"
+   ]
+  },
+  {
+   "nome": "Inquisidor Malvert",
+   "casas": [
+    "Ordem da Chama Pura"
+   ],
+   "grupos": [
+    "clero"
+   ],
+   "aparicoes": 7,
+   "pedidos": [
+    "hereges",
+    "heresia_livro",
+    "r_cruzada",
+    "r_inquisicao",
+    "n_herege_livro",
+    "n_bruxaria_acusacao",
+    "x_bruxas_queimar"
+   ]
+  },
+  {
+   "nome": "Sacerdote Fennick",
+   "casas": [
+    "Capela do Vale"
+   ],
+   "grupos": [
+    "clero"
+   ],
+   "aparicoes": 7,
+   "pedidos": [
+    "milagre_poco",
+    "templo_novo",
+    "r_milagre_rei",
+    "n_santa_vila",
+    "n_igreja_sinos_vila",
+    "d_cometa2",
+    "x_falsa_profecia"
+   ]
+  },
+  {
+   "nome": "Irmão Ansel",
+   "casas": [
+    "Mosteiro das Colinas"
+   ],
+   "grupos": [
+    "clero"
+   ],
+   "aparicoes": 7,
+   "pedidos": [
+    "monges_copistas",
+    "concurso_poesia",
+    "n_mosteiro_vinho",
+    "n_coro",
+    "n_novico",
+    "d_visao1",
+    "d_visao2"
+   ]
+  },
+  {
+   "nome": "Padre Lorcan",
+   "casas": [
+    "Templo da Aurora"
+   ],
+   "grupos": [
+    "clero"
+   ],
+   "aparicoes": 7,
+   "pedidos": [
+    "confissao",
+    "r_reforma_templo",
+    "n_padre_casado",
+    "n_igreja_porto",
+    "n_dizimo_peixe",
+    "n_sermao_rei",
+    "e_dizimo_reduzido"
+   ]
+  },
+  {
+   "nome": "Mestre Hollis",
+   "casas": [
+    "Guilda dos Padeiros"
+   ],
+   "grupos": [
+    "burguesia"
+   ],
+   "aparicoes": 7,
+   "pedidos": [
+    "guilda_padeiros",
+    "eleicao_guilda",
+    "r_crise_trigo",
+    "n_concorrencia",
+    "d_pref1",
+    "e_bolsa_artesao",
+    "e_mercado_trigo"
+   ]
+  },
+  {
+   "nome": "Ferreiro-Mor Gundar",
+   "casas": [
+    "Forja Real"
+   ],
+   "grupos": [
+    "guarda",
+    "burguesia"
+   ],
+   "aparicoes": 7,
+   "pedidos": [
+    "arsenal",
+    "r_arsenal_runico",
+    "n_armeiro",
+    "n_arsenal_flechas",
+    "n_balestras",
+    "d_arsenal1",
+    "e_contrato_forja"
+   ]
+  },
+  {
+   "nome": "Caçador Jorah",
+   "casas": [
+    "Montanhas do Norte"
+   ],
+   "grupos": [
+    "guarda",
+    "burguesia",
+    "arcano",
+    "nobreza"
+   ],
+   "aparicoes": 7,
+   "pedidos": [
+    "grifo",
+    "r_ouro_dragao",
+    "n_cachorros_guerra",
+    "d_fera2",
+    "d_grifos2",
+    "e_proibe_caca",
+    "x_ouro_dragao2"
+   ]
+  },
+  {
+   "nome": "Lenhador Ulf",
+   "casas": [
+    "Vilas do Norte"
+   ],
+   "grupos": [
+    "povo",
+    "guarda"
+   ],
+   "aparicoes": 7,
+   "pedidos": [
+    "neve",
+    "n_neve_teto",
+    "n_festa_neve",
+    "n_inverno_lobos",
+    "d_fera1",
+    "e_ajuda_vilas_norte",
+    "x_inverno_eterno"
+   ]
+  },
+  {
+   "nome": "Escriba-Chefe Odo",
+   "casas": [
+    "Arquivos Reais"
+   ],
+   "grupos": [
+    "burguesia",
+    "povo",
+    "clero",
+    "nobreza"
+   ],
+   "aparicoes": 7,
+   "pedidos": [
+    "escribas_greve",
+    "n_escriba_povo",
+    "d_ouro2",
+    "e_cartorio",
+    "e_lei_heranca",
+    "x_tesoureiro",
+    "x_falsificacao_selo"
+   ]
+  },
+  {
+   "nome": "Almirante Corvo",
+   "casas": [
+    "Guarda do Rio"
+   ],
+   "grupos": [
+    "guarda",
+    "burguesia"
+   ],
+   "aparicoes": 7,
+   "pedidos": [
+    "r_frota",
+    "n_guarda_rio",
+    "n_escola_navegar",
+    "e_pedagio_rio",
+    "e_milicia_rio",
+    "x_amotinados_navio",
+    "x_cerco_porto"
+   ]
+  },
+  {
+   "nome": "Conselho das Casas",
+   "casas": [
+    "Assembleia Nobre"
+   ],
+   "grupos": [
+    "nobreza"
+   ],
+   "aparicoes": 6,
+   "pedidos": [
+    "isencao",
+    "r_corte_impostos",
+    "x_ultimato_casas",
+    "x_estatua_fundador",
+    "x_rei_abdica",
+    "x_ouro_nobre_guerra"
+   ]
+  },
+  {
+   "nome": "Mestra Liana Orwen",
+   "casas": [
+    "Academia Real"
+   ],
+   "grupos": [
+    "povo"
+   ],
+   "aparicoes": 6,
+   "pedidos": [
+    "escola",
+    "r_escola_reino",
+    "d_acad2",
+    "e_aulas_noite",
+    "e_salario_professor",
+    "e_bolsa_estudos"
+   ]
+  },
+  {
+   "nome": "Carcereiro Mord",
+   "casas": [
+    "Prisão Real Pedra Fria"
+   ],
+   "grupos": [
+    "guarda",
+    "povo"
+   ],
+   "aparicoes": 6,
+   "pedidos": [
+    "pedra_fria",
+    "fuga_pedra",
+    "r_motim_prisao",
+    "e_cadeia_trabalho",
+    "e_reforma_prisao",
+    "x_prisao_lotada"
+   ]
+  },
+  {
+   "nome": "Embaixador de Ostmar",
+   "casas": [
+    "Reino de Ostmar"
+   ],
+   "grupos": [
+    "nobreza",
+    "burguesia"
+   ],
+   "aparicoes": 6,
+   "pedidos": [
+    "casamento_real",
+    "r_principe",
+    "n_sedas_ostmar",
+    "n_ostmar_festa",
+    "e_alianca_ostmar",
+    "x_aliado_ostmar"
+   ]
+  },
+  {
+   "nome": "Signore Bastiani",
+   "casas": [
+    "Companhia das Índias do Sul"
+   ],
+   "grupos": [
+    "burguesia"
+   ],
+   "aparicoes": 6,
+   "pedidos": [
+    "r_companhia",
+    "r_companhia2",
+    "e_cambio",
+    "e_moeda_forte",
+    "x_moeda_valdoria",
+    "x_moeda_derrete"
+   ]
+  },
+  {
+   "nome": "Condessa Ysolde Marrav",
+   "casas": [
+    "Casa Marrav"
+   ],
+   "grupos": [
+    "nobreza"
+   ],
+   "aparicoes": 5,
+   "pedidos": [
+    "terras",
+    "caca",
+    "castelo_marrav",
+    "r_casamento_rei",
+    "n_peregrinacao_nobre"
+   ]
+  },
+  {
+   "nome": "Lady Corvina Morvain",
+   "casas": [
+    "Casa Morvain"
+   ],
+   "grupos": [
+    "nobreza"
+   ],
+   "aparicoes": 5,
+   "pedidos": [
+    "traidor",
+    "baile",
+    "r_duque_morre",
+    "n_disputa_rio",
+    "n_veu_viuva"
+   ]
+  },
+  {
+   "nome": "Sir Edric Faulkner",
+   "casas": [
+    "Cavaleiros de Arcadia"
+   ],
+   "grupos": [
+    "nobreza"
+   ],
+   "aparicoes": 5,
+   "pedidos": [
+    "torneio",
+    "pedagio_nobre",
+    "n_cacada_lebre",
+    "n_cerimonia_espora",
+    "e_torneio_mensal"
+   ]
+  },
+  {
+   "nome": "Mestre Corin Vale",
+   "casas": [
+    "Porto do Rio"
+   ],
+   "grupos": [
+    "burguesia"
+   ],
+   "aparicoes": 5,
+   "pedidos": [
+    "porto",
+    "r_quebra_porto",
+    "n_porto_guindaste",
+    "d_navio1",
+    "e_doca_seca"
+   ]
+  },
+  {
+   "nome": "Signore Orsini",
+   "casas": [
+    "Casa Bancária Orsini"
+   ],
+   "grupos": [
+    "burguesia"
+   ],
+   "aparicoes": 5,
+   "pedidos": [
+    "banqueiros",
+    "moeda",
+    "cambio",
+    "r_divida_orsini",
+    "x_ouro_estrangeiro"
+   ]
+  },
+  {
+   "nome": "Emissário de Morgrath",
+   "casas": [
+    "Reino de Morgrath"
+   ],
+   "grupos": [
+    "nobreza"
+   ],
+   "aparicoes": 5,
+   "pedidos": [
+    "tributo",
+    "espiao2",
+    "r_resgate_rei",
+    "n_embaixador_rude",
+    "d_mocas3"
+   ]
+  },
+  {
+   "nome": "Mestre Dorgan",
+   "casas": [
+    "Companhia das Pedreiras"
+   ],
+   "grupos": [
+    "burguesia",
+    "arcano"
+   ],
+   "aparicoes": 5,
+   "pedidos": [
+    "minas",
+    "minas2",
+    "r_prata",
+    "d_mina1",
+    "x_peste_ouro"
+   ]
+  },
+  {
+   "nome": "Anciã Sela",
+   "casas": [
+    "Povo da Floresta"
+   ],
+   "grupos": [
+    "povo",
+    "arcano",
+    "clero"
+   ],
+   "aparicoes": 5,
+   "pedidos": [
+    "floresta2",
+    "pacto_floresta",
+    "n_igreja_floresta",
+    "e_reflorestar",
+    "x_morwen_rainha"
+   ]
+  },
+  {
+   "nome": "Mineiro Bram",
+   "casas": [
+    "Pedreiras do Norte"
+   ],
+   "grupos": [
+    "povo"
+   ],
+   "aparicoes": 5,
+   "pedidos": [
+    "mineiros_greve",
+    "n_pedreira_poeira",
+    "d_canal2",
+    "d_mina2",
+    "d_mina3"
+   ]
+  },
+  {
+   "nome": "Lavrador Nestor",
+   "casas": [
+    "Aldeia de Sabugueiro"
+   ],
+   "grupos": [
+    "povo",
+    "guarda",
+    "arcano"
+   ],
+   "aparicoes": 5,
+   "pedidos": [
+    "n_poco_seco",
+    "n_bandidos_vila",
+    "n_rapto",
+    "n_cadeia_vila",
+    "d_bruxa1"
+   ]
+  },
+  {
+   "nome": "Barqueiro Lino",
+   "casas": [
+    "Cachoeira das Sete Quedas"
+   ],
+   "grupos": [
+    "povo",
+    "burguesia"
+   ],
+   "aparicoes": 5,
+   "pedidos": [
+    "n_ponte_corda",
+    "d_balsa1",
+    "d_balsa2",
+    "d_ilha1",
+    "e_ponte_corda_vilas"
+   ]
+  },
+  {
+   "nome": "Encapuzado sem nome",
+   "casas": [
+    "Os Vigilantes"
+   ],
+   "grupos": [
+    "arcano"
+   ],
+   "aparicoes": 4,
+   "pedidos": [
+    "seita",
+    "seita2",
+    "r_imortal",
+    "x_seita_poderosa"
+   ]
+  },
+  {
+   "nome": "Mercador Pip Lowell",
+   "casas": [
+    "Comerciante da cidade"
+   ],
+   "grupos": [
+    "burguesia",
+    "povo"
+   ],
+   "aparicoes": 4,
+   "pedidos": [
+    "loteria",
+    "n_sal_vila",
+    "d_banco1",
+    "e_mercado_vilas"
+   ]
+  },
+  {
+   "nome": "Capitã Marisa Doran",
+   "casas": [
+    "Mercadora do rio"
+   ],
+   "grupos": [
+    "burguesia"
+   ],
+   "aparicoes": 4,
+   "pedidos": [
+    "navio",
+    "r_monopolio_rio",
+    "n_cartas_marear",
+    "x_ilha_ouro"
+   ]
+  },
+  {
+   "nome": "Juiz Brennan",
+   "casas": [
+    "Tribunal da Cidade"
+   ],
+   "grupos": [
+    "povo"
+   ],
+   "aparicoes": 4,
+   "pedidos": [
+    "ladrao_galinha",
+    "bandos_jovens",
+    "n_ladra",
+    "n_bebados"
+   ]
+  },
+  {
+   "nome": "Menina Lina",
+   "casas": [
+    "Rua do Sino",
+    "Academia Real"
+   ],
+   "grupos": [
+    "povo"
+   ],
+   "aparicoes": 4,
+   "pedidos": [
+    "cachorro",
+    "n_menina_sabia",
+    "d_acad1",
+    "x_revolta_estudantes"
+   ]
+  },
+  {
+   "nome": "Pastor Edmund",
+   "casas": [
+    "Montanhas do Norte"
+   ],
+   "grupos": [
+    "arcano",
+    "guarda",
+    "povo"
+   ],
+   "aparicoes": 4,
+   "pedidos": [
+    "dragao",
+    "r_dragao_real",
+    "n_lobo",
+    "d_ovo1"
+   ]
+  },
+  {
+   "nome": "Mestre Lazlo",
+   "casas": [
+    "Caravana dos Andarilhos"
+   ],
+   "grupos": [
+    "povo"
+   ],
+   "aparicoes": 4,
+   "pedidos": [
+    "cigana",
+    "n_teatro",
+    "n_ciganos_cavalo",
+    "n_ciganos_cavalos2"
+   ]
+  },
+  {
+   "nome": "Astrólogo Melchior",
+   "casas": [
+    "Torre das Estrelas"
+   ],
+   "grupos": [
+    "arcano",
+    "clero"
+   ],
+   "aparicoes": 4,
+   "pedidos": [
+    "astrologo",
+    "n_estrela_cadente",
+    "n_sonhos",
+    "n_estrelas_mapa"
+   ]
+  },
+  {
+   "nome": "Sineiro Pim",
+   "casas": [
+    "Torre do Templo"
+   ],
+   "grupos": [
+    "guarda",
+    "clero"
+   ],
+   "aparicoes": 4,
+   "pedidos": [
+    "sino_alarme",
+    "n_sino_novo",
+    "d_sino1",
+    "x_sino_alarme_geral"
+   ]
+  },
+  {
+   "nome": "Moleiro Anselmo",
+   "casas": [
+    "Moinhos de Ventoalto"
+   ],
+   "grupos": [
+    "povo",
+    "burguesia"
+   ],
+   "aparicoes": 4,
+   "pedidos": [
+    "n_moleiro",
+    "n_moinho_agua",
+    "e_moinho_real",
+    "e_tributo_moinho"
+   ]
+  },
+  {
+   "nome": "Romeiro Severino",
+   "casas": [
+    "Romeiros do Monte Claro"
+   ],
+   "grupos": [
+    "povo",
+    "clero"
+   ],
+   "aparicoes": 4,
+   "pedidos": [
+    "n_cruz_estrada",
+    "n_festa_santo",
+    "e_romaria_anual",
+    "x_peregrinos_massa"
+   ]
+  },
+  {
+   "nome": "Barão Ulrich Vane",
+   "casas": [
+    "Casa Vane"
+   ],
+   "grupos": [
+    "nobreza"
+   ],
+   "aparicoes": 4,
+   "pedidos": [
+    "n_servo_libertado",
+    "n_mercado_escravo",
+    "e_lei_silencio",
+    "e_lei_florestas"
+   ]
+  },
+  {
+   "nome": "O Estranho",
+   "casas": [
+    "Sem nome"
+   ],
+   "grupos": [
+    "arcano"
+   ],
+   "aparicoes": 4,
+   "pedidos": [
+    "d_estranho3",
+    "x_vhalkir_abre2",
+    "x_alianca_vigilantes",
+    "x_fundador_volta"
+   ]
+  },
+  {
+   "nome": "Lorde Bertram Ashfeld",
+   "casas": [
+    "Casa Ashfeld"
+   ],
+   "grupos": [
+    "nobreza"
+   ],
+   "aparicoes": 3,
+   "pedidos": [
+    "casamento",
+    "dote",
+    "dote2"
+   ]
+  },
+  {
+   "nome": "Mercador Varrus Kell",
+   "casas": [
+    "Companhia do Sal"
+   ],
+   "grupos": [
+    "burguesia"
+   ],
+   "aparicoes": 3,
+   "pedidos": [
+    "sal",
+    "n_rota_sal",
+    "e_tributo_sal"
+   ]
+  },
+  {
+   "nome": "Mercadora Orla Venn",
+   "casas": [
+    "Caravanas do Rio"
+   ],
+   "grupos": [
+    "guarda",
+    "burguesia"
+   ],
+   "aparicoes": 3,
+   "pedidos": [
+    "bandidos",
+    "caravana_perdida",
+    "r_rota_especiarias"
+   ]
+  },
+  {
+   "nome": "Sir Orwin Blackmere",
+   "casas": [
+    "Casa Blackmere"
+   ],
+   "grupos": [
+    "nobreza"
+   ],
+   "aparicoes": 3,
+   "pedidos": [
+    "brasao",
+    "r_feudo",
+    "n_guarda_honra"
+   ]
+  },
+  {
+   "nome": "Lorde Pryce",
+   "casas": [
+    "Casa Pryce"
+   ],
+   "grupos": [
+    "nobreza"
+   ],
+   "aparicoes": 3,
+   "pedidos": [
+    "nobre_guerra",
+    "r_guerra_casas",
+    "n_aposta_nobre"
+   ]
+  },
+  {
+   "nome": "Dona Rosalind",
+   "casas": [
+    "Estalagem do Grifo"
+   ],
+   "grupos": [
+    "burguesia"
+   ],
+   "aparicoes": 3,
+   "pedidos": [
+    "estalagem",
+    "n_hospedaria_estrada",
+    "n_aguas_termais"
+   ]
+  },
+  {
+   "nome": "Livreiro Elian Moss",
+   "casas": [
+    "Rua dos Escribas"
+   ],
+   "grupos": [
+    "burguesia",
+    "arcano"
+   ],
+   "aparicoes": 3,
+   "pedidos": [
+    "feira_livros",
+    "n_feira_livros2",
+    "n_grimorio_leilao"
+   ]
+  },
+  {
+   "nome": "Mestre Dorran",
+   "casas": [
+    "Guilda dos Pedreiros"
+   ],
+   "grupos": [
+    "povo"
+   ],
+   "aparicoes": 3,
+   "pedidos": [
+    "feira_trabalho",
+    "praca_nova",
+    "n_calcada"
+   ]
+  },
+  {
+   "nome": "Parteira Odila",
+   "casas": [
+    "Bairro baixo"
+   ],
+   "grupos": [
+    "povo"
+   ],
+   "aparicoes": 3,
+   "pedidos": [
+    "parteiras",
+    "r_criancas_minas",
+    "e_premio_parteiras"
+   ]
+  },
+  {
+   "nome": "Coveiro Silas",
+   "casas": [
+    "Cemitério da Colina"
+   ],
+   "grupos": [
+    "povo",
+    "clero"
+   ],
+   "aparicoes": 3,
+   "pedidos": [
+    "cemiterio",
+    "n_noite_terror",
+    "e_cemiterio_novo"
+   ]
+  },
+  {
+   "nome": "Mestre-estribeiro Hal",
+   "casas": [
+    "Estábulos Reais"
+   ],
+   "grupos": [
+    "guarda"
+   ],
+   "aparicoes": 3,
+   "pedidos": [
+    "cavalos",
+    "n_cavalaria",
+    "e_cavalaria_real"
+   ]
+  },
+  {
+   "nome": "Capitão Varek",
+   "casas": [
+    "Companhia Lâmina Cinza"
+   ],
+   "grupos": [
+    "guarda"
+   ],
+   "aparicoes": 3,
+   "pedidos": [
+    "mercenarios",
+    "r_mercenarios_grandes",
+    "e_mercenarios_pequenos"
+   ]
+  },
+  {
+   "nome": "Mercadora Zaida",
+   "casas": [
+    "Viajante do leste"
+   ],
+   "grupos": [
+    "arcano",
+    "burguesia"
+   ],
+   "aparicoes": 3,
+   "pedidos": [
+    "espelho",
+    "r_espelho2",
+    "n_cafe"
+   ]
+  },
+  {
+   "nome": "Cozinheira-Mor Gertrudes",
+   "casas": [
+    "Cozinha do Castelo"
+   ],
+   "grupos": [
+    "povo",
+    "arcano",
+    "guarda"
+   ],
+   "aparicoes": 3,
+   "pedidos": [
+    "livro_receitas",
+    "n_livro_receitas_magicas",
+    "d_cozinha1"
+   ]
+  },
+  {
+   "nome": "Mensageiro do Sul",
+   "casas": [
+    "Guarnição do Sul",
+    "Vilas do Sul"
+   ],
+   "grupos": [
+    "guarda",
+    "povo"
+   ],
+   "aparicoes": 3,
+   "pedidos": [
+    "r_golpe_militar2",
+    "r_rebeliao_sul",
+    "x_rebeldes_sul"
+   ]
+  },
+  {
+   "nome": "Vaqueiro Tião Barbacena",
+   "casas": [
+    "Pastos do Vale"
+   ],
+   "grupos": [
+    "povo"
+   ],
+   "aparicoes": 3,
+   "pedidos": [
+    "n_vaqueiro",
+    "n_feira_gado",
+    "d_gado1"
+   ]
+  },
+  {
+   "nome": "Ferreiro Hask",
+   "casas": [
+    "Bairro das Forjas"
+   ],
+   "grupos": [
+    "povo",
+    "arcano"
+   ],
+   "aparicoes": 3,
+   "pedidos": [
+    "n_ferreiro_vila",
+    "n_noiva_fugida",
+    "n_ferreiro_magico"
+   ]
+  },
+  {
+   "nome": "Sanfoneiro Juca",
+   "casas": [
+    "Taverna do Sino"
+   ],
+   "grupos": [
+    "povo"
+   ],
+   "aparicoes": 3,
+   "pedidos": [
+    "n_seresta",
+    "n_casa_sanfona",
+    "e_lei_tabernas_vila"
+   ]
+  },
+  {
+   "nome": "Viúva Rosa",
+   "casas": [
+    "Bairro do Porto"
+   ],
+   "grupos": [
+    "povo"
+   ],
+   "aparicoes": 3,
+   "pedidos": [
+    "n_viuva",
+    "n_casa_caida",
+    "e_pensao_viuvas"
+   ]
+  },
+  {
+   "nome": "Menino Tonico",
+   "casas": [
+    "Pastos do Vale"
+   ],
+   "grupos": [
+    "povo"
+   ],
+   "aparicoes": 3,
+   "pedidos": [
+    "n_bezerro",
+    "n_jogo_bola",
+    "n_cego_guia"
+   ]
+  },
+  {
+   "nome": "Velho Bartô",
+   "casas": [
+    "Torre dos Pombos"
+   ],
+   "grupos": [
+    "povo",
+    "burguesia",
+    "guarda"
+   ],
+   "aparicoes": 3,
+   "pedidos": [
+    "n_pombos",
+    "n_correios",
+    "e_cavalos_correio"
+   ]
+  },
+  {
+   "nome": "Abadessa Hilde",
+   "casas": [
+    "Convento de Brumafria"
+   ],
+   "grupos": [
+    "clero"
+   ],
+   "aparicoes": 3,
+   "pedidos": [
+    "n_monja",
+    "n_ordem_hospitalaria",
+    "e_casa_orfaos"
+   ]
+  },
+  {
+   "nome": "Rei Vorgath de Morgrath",
+   "casas": [
+    "Reino de Morgrath"
+   ],
+   "grupos": [
+    "nobreza"
+   ],
+   "aparicoes": 3,
+   "pedidos": [
+    "x_morgrath_paz",
+    "x_casamento_morgrath",
+    "x_arcadia_vende_sul"
+   ]
+  },
+  {
+   "nome": "Conselho das Guildas",
+   "casas": [
+    "Guildas de Arcadia"
+   ],
+   "grupos": [
+    "burguesia"
+   ],
+   "aparicoes": 2,
+   "pedidos": [
+    "licencas",
+    "r_guilda_greve"
+   ]
+  },
+  {
+   "nome": "Madre Isolde",
+   "casas": [
+    "Ordem das Peregrinas"
+   ],
+   "grupos": [
+    "clero"
+   ],
+   "aparicoes": 2,
+   "pedidos": [
+    "peregrinos",
+    "dizimo_isencao"
+   ]
+  },
+  {
+   "nome": "Capitão do Porto",
+   "casas": [
+    "Porto do Rio"
+   ],
+   "grupos": [
+    "povo"
+   ],
+   "aparicoes": 2,
+   "pedidos": [
+    "banx_preso",
+    "r_motim_porto"
+   ]
+  },
+  {
+   "nome": "Mestra Yvaine",
+   "casas": [
+    "Tinturaria do Rio"
+   ],
+   "grupos": [
+    "burguesia"
+   ],
+   "aparicoes": 2,
+   "pedidos": [
+    "tinturaria",
+    "n_tecelagem"
+   ]
+  },
+  {
+   "nome": "Darrow",
+   "casas": [
+    "Arqueiros da Guarda"
+   ],
+   "grupos": [
+    "guarda"
+   ],
+   "aparicoes": 2,
+   "pedidos": [
+    "cavaleiro_novo",
+    "n_arqueiros"
+   ]
+  },
+  {
+   "nome": "O Eremita da Colina",
+   "casas": [
+    "Sem casa"
+   ],
+   "grupos": [
+    "arcano"
+   ],
+   "aparicoes": 2,
+   "pedidos": [
+    "eremita",
+    "r_espada_rei"
+   ]
+  },
+  {
+   "nome": "Cartógrafa Inês",
+   "casas": [
+    "Academia Real"
+   ],
+   "grupos": [
+    "burguesia"
+   ],
+   "aparicoes": 2,
+   "pedidos": [
+    "cartografo",
+    "n_mapa_rotas"
+   ]
+  },
+  {
+   "nome": "Alquimista Varro",
+   "casas": [
+    "Torre de Vidro"
+   ],
+   "grupos": [
+    "arcano"
+   ],
+   "aparicoes": 2,
+   "pedidos": [
+    "r_pedra_filosofal",
+    "r_pedra2"
+   ]
+  },
+  {
+   "nome": "Dona Benta das Velas",
+   "casas": [
+    "Cemitério da Colina"
+   ],
+   "grupos": [
+    "povo",
+    "clero"
+   ],
+   "aparicoes": 2,
+   "pedidos": [
+    "n_carpideiras",
+    "n_vela_noite"
+   ]
+  },
+  {
+   "nome": "Cantador Cego Aderaldo",
+   "casas": [
+    "Estrada Real"
+   ],
+   "grupos": [
+    "povo"
+   ],
+   "aparicoes": 2,
+   "pedidos": [
+    "n_cego",
+    "n_lenda_heroi"
+   ]
+  },
+  {
+   "nome": "Soldado Velho Bento",
+   "casas": [
+    "Veteranos da Guarda"
+   ],
+   "grupos": [
+    "povo",
+    "guarda"
+   ],
+   "aparicoes": 2,
+   "pedidos": [
+    "n_aleijado",
+    "n_veteranos"
+   ]
+  },
+  {
+   "nome": "Pintor Tiago",
+   "casas": [
+    "Ateliê da Colina"
+   ],
+   "grupos": [
+    "povo",
+    "nobreza"
+   ],
+   "aparicoes": 2,
+   "pedidos": [
+    "n_pintor",
+    "n_retrato_rei"
+   ]
+  },
+  {
+   "nome": "Arauto-Mor Gilles",
+   "casas": [
+    "Colégio dos Arautos"
+   ],
+   "grupos": [
+    "nobreza"
+   ],
+   "aparicoes": 2,
+   "pedidos": [
+    "n_brasao_falso",
+    "d_negro1"
+   ]
+  },
+  {
+   "nome": "Jardineiro-Mor Florian",
+   "casas": [
+    "Jardins do Castelo"
+   ],
+   "grupos": [
+    "nobreza",
+    "arcano"
+   ],
+   "aparicoes": 2,
+   "pedidos": [
+    "n_jardim_real",
+    "n_fada_jardim"
+   ]
+  },
+  {
+   "nome": "Sir Godric o Velho",
+   "casas": [
+    "Cavaleiros de Arcadia"
+   ],
+   "grupos": [
+    "nobreza"
+   ],
+   "aparicoes": 2,
+   "pedidos": [
+    "n_cavaleiro_velho",
+    "n_ultima_vontade"
+   ]
+  },
+  {
+   "nome": "Vidreiro Murano",
+   "casas": [
+    "Oficina de Vidro"
+   ],
+   "grupos": [
+    "burguesia"
+   ],
+   "aparicoes": 2,
+   "pedidos": [
+    "n_vidros",
+    "e_monopolio_vidro"
+   ]
+  },
+  {
+   "nome": "Guerreira Ingrid",
+   "casas": [
+    "Mercenária do norte"
+   ],
+   "grupos": [
+    "guarda"
+   ],
+   "aparicoes": 2,
+   "pedidos": [
+    "n_guerreira_estrangeira",
+    "x_duelo_valk"
+   ]
+  },
+  {
+   "nome": "Princesa Elenna",
+   "casas": [
+    "Reino de Valdoria"
+   ],
+   "grupos": [
+    "nobreza"
+   ],
+   "aparicoes": 2,
+   "pedidos": [
+    "d_prin4",
+    "x_casamento_princesa"
+   ]
+  },
+  {
+   "nome": "Gêmeo Edmund Ashfeld",
+   "casas": [
+    "Casa Ashfeld"
+   ],
+   "grupos": [
+    "nobreza"
+   ],
+   "aparicoes": 2,
+   "pedidos": [
+    "d_gemeo2",
+    "d_gemeo3"
+   ]
+  },
+  {
+   "nome": "Nhá Joana",
+   "casas": [
+    "Pântano de Lodomar"
+   ],
+   "grupos": [
+    "arcano"
+   ],
+   "aparicoes": 2,
+   "pedidos": [
+    "d_bruxa2",
+    "d_bruxa3"
+   ]
+  },
+  {
+   "nome": "Mercador Ezequias",
+   "casas": [
+    "Viajante do sul"
+   ],
+   "grupos": [
+    "clero"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "reliquia"
+   ]
+  },
+  {
+   "nome": "Guilda dos Tecelões",
+   "casas": [
+    "Bairro dos Teares"
+   ],
+   "grupos": [
+    "burguesia"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "tecidos"
+   ]
+  },
+  {
+   "nome": "Mensageiro ferido",
+   "casas": [
+    "Forte Thorendis"
+   ],
+   "grupos": [
+    "guarda"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "fronteira"
+   ]
+  },
+  {
+   "nome": "Kael Thorendis",
+   "casas": [
+    "Guarda Real"
+   ],
+   "grupos": [
+    "guarda"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "kael"
+   ]
+  },
+  {
+   "nome": "Jovem Rowan",
+   "casas": [
+    "Sem Casa"
+   ],
+   "grupos": [
+    "nobreza"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "bastardo"
+   ]
+  },
+  {
+   "nome": "Mestre Corvin",
+   "casas": [
+    "Carvoeiros da Floresta"
+   ],
+   "grupos": [
+    "burguesia"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "carvao"
+   ]
+  },
+  {
+   "nome": "Dona Clotilde",
+   "casas": [
+    "Lavadeiras do Rio"
+   ],
+   "grupos": [
+    "povo"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "lavadeiras"
+   ]
+  },
+  {
+   "nome": "Astrônomo Pell Varis",
+   "casas": [
+    "Academia Real"
+   ],
+   "grupos": [
+    "arcano"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "cometa"
+   ]
+  },
+  {
+   "nome": "Mensageiro de Morgrath",
+   "casas": [
+    "Reino de Morgrath"
+   ],
+   "grupos": [
+    "guarda"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "refens"
+   ]
+  },
+  {
+   "nome": "Escultor Remi",
+   "casas": [
+    "Ateliê da Colina"
+   ],
+   "grupos": [
+    "nobreza"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "estatua"
+   ]
+  },
+  {
+   "nome": "Menestrel Cassio",
+   "casas": [
+    "Trovador de Valdoria"
+   ],
+   "grupos": [
+    "povo"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "menestrel_rival"
+   ]
+  },
+  {
+   "nome": "Repentista Zé Calango",
+   "casas": [
+    "Feira de Pedraverde"
+   ],
+   "grupos": [
+    "povo"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "n_repentista"
+   ]
+  },
+  {
+   "nome": "Rendeira Dona Fiinha",
+   "casas": [
+    "Rendeiras de Brumafria"
+   ],
+   "grupos": [
+    "povo"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "n_rendeiras"
+   ]
+  },
+  {
+   "nome": "Mãe Quitéria",
+   "casas": [
+    "Benzedeira da Vila do Rio"
+   ],
+   "grupos": [
+    "povo"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "n_benzedeira"
+   ]
+  },
+  {
+   "nome": "Gaiteiro Pio",
+   "casas": [
+    "Colinas do Oeste"
+   ],
+   "grupos": [
+    "povo"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "n_gaiteiro"
+   ]
+  },
+  {
+   "nome": "Mestre Fogueteiro Ruy",
+   "casas": [
+    "Ateliê da Colina"
+   ],
+   "grupos": [
+    "povo"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "n_fogos"
+   ]
+  },
+  {
+   "nome": "Mascate Ibrahim",
+   "casas": [
+    "Viajante do sul"
+   ],
+   "grupos": [
+    "povo"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "n_mascate"
+   ]
+  },
+  {
+   "nome": "Tiradentes Joaquim",
+   "casas": [
+    "Feira de Pedraverde"
+   ],
+   "grupos": [
+    "povo"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "n_curandeiro_dentes"
+   ]
+  },
+  {
+   "nome": "Peixeira Dona Zefa",
+   "casas": [
+    "Mercado de Baixo"
+   ],
+   "grupos": [
+    "povo"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "n_mercado_peixe"
+   ]
+  },
+  {
+   "nome": "Destilador Cazuza",
+   "casas": [
+    "Engenho do Vale"
+   ],
+   "grupos": [
+    "povo"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "n_aguardente"
+   ]
+  },
+  {
+   "nome": "Zé Calango",
+   "casas": [
+    "Feira de Pedraverde"
+   ],
+   "grupos": [
+    "povo"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "n_violeiros"
+   ]
+  },
+  {
+   "nome": "Baronesa Isaura Vane",
+   "casas": [
+    "Casa Vane"
+   ],
+   "grupos": [
+    "nobreza"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "n_baronesa"
+   ]
+  },
+  {
+   "nome": "Lorde Amaury Corvane",
+   "casas": [
+    "Casa Corvane"
+   ],
+   "grupos": [
+    "nobreza"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "n_nobre_pobre"
+   ]
+  },
+  {
+   "nome": "Ourives Benedito",
+   "casas": [
+    "Rua dos Ourives"
+   ],
+   "grupos": [
+    "nobreza"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "n_ourives"
+   ]
+  },
+  {
+   "nome": "Relojoeiro Klaus",
+   "casas": [
+    "Rua dos Ourives"
+   ],
+   "grupos": [
+    "burguesia"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "n_relojoeiro"
+   ]
+  },
+  {
+   "nome": "Mestre Cervejeiro Otto",
+   "casas": [
+    "Cervejaria do Rio"
+   ],
+   "grupos": [
+    "burguesia"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "n_cervejaria"
+   ]
+  },
+  {
+   "nome": "Luveiro Marcel",
+   "casas": [
+    "Rua dos Couros"
+   ],
+   "grupos": [
+    "burguesia"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "n_luvas"
+   ]
+  },
+  {
+   "nome": "Saboeira Dona Lia",
+   "casas": [
+    "Rua dos Curtumes"
+   ],
+   "grupos": [
+    "burguesia"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "n_sabao"
+   ]
+  },
+  {
+   "nome": "Sargento Rolf",
+   "casas": [
+    "Guarda Real"
+   ],
+   "grupos": [
+    "guarda"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "n_desafio_honra"
+   ]
+  },
+  {
+   "nome": "Bordadeira Celeste",
+   "casas": [
+    "Ateliê das Agulhas"
+   ],
+   "grupos": [
+    "guarda"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "n_estandarte"
+   ]
+  },
+  {
+   "nome": "Mestre-de-armas Iñigo",
+   "casas": [
+    "Viajante do sul"
+   ],
+   "grupos": [
+    "guarda"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "n_espadachim"
+   ]
+  },
+  {
+   "nome": "Tamborileiro Zico",
+   "casas": [
+    "Guarda Real"
+   ],
+   "grupos": [
+    "guarda"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "n_tambor"
+   ]
+  },
+  {
+   "nome": "Mercador Grosk",
+   "casas": [
+    "Reino de Morgrath"
+   ],
+   "grupos": [
+    "burguesia"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "n_morgrath_comercio"
+   ]
+  },
+  {
+   "nome": "Carroceiro Joca",
+   "casas": [
+    "Estrada Real"
+   ],
+   "grupos": [
+    "povo"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "n_carroca_presa"
+   ]
+  },
+  {
+   "nome": "Garimpeiro Totó",
+   "casas": [
+    "Cachoeira das Sete Quedas"
+   ],
+   "grupos": [
+    "burguesia"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "n_ouro_rio"
+   ]
+  },
+  {
+   "nome": "Doceira Dona Cocada",
+   "casas": [
+    "Feira de Pedraverde"
+   ],
+   "grupos": [
+    "povo"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "n_doceira"
+   ]
+  },
+  {
+   "nome": "Barbeiro Fígaro",
+   "casas": [
+    "Barbearia Real"
+   ],
+   "grupos": [
+    "nobreza"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "n_corte_cabelo"
+   ]
+  },
+  {
+   "nome": "O Raposa",
+   "casas": [
+    "Bandido do Vale"
+   ],
+   "grupos": [
+    "povo"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "d_raposa3"
+   ]
+  },
+  {
+   "nome": "Jovem Aurélio",
+   "casas": [
+    "Pretendente de Montclaro"
+   ],
+   "grupos": [
+    "nobreza"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "d_mont1"
+   ]
+  },
+  {
+   "nome": "Cavaleiro Negro",
+   "casas": [
+    "Sem brasão"
+   ],
+   "grupos": [
+    "nobreza"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "d_negro2"
+   ]
+  },
+  {
+   "nome": "General Rhoan",
+   "casas": [
+    "Guarnição do Sul"
+   ],
+   "grupos": [
+    "guarda"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "d_arsenal3"
+   ]
+  },
+  {
+   "nome": "Prefeito eleito",
+   "casas": [
+    "Cidade Baixa"
+   ],
+   "grupos": [
+    "burguesia"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "d_pref3"
+   ]
+  },
+  {
+   "nome": "Rowan de Argenthal",
+   "casas": [
+    "Cavaleiro de Argenthal"
+   ],
+   "grupos": [
+    "nobreza"
+   ],
+   "aparicoes": 1,
+   "pedidos": [
+    "x_rei_desafiado"
+   ]
+  }
+ ],
+ "casas": [
+  {
+   "nome": "Guarda Real",
+   "pessoas": [
+    "Capitã Valkiria",
+    "Kael Thorendis",
+    "Tenente Kael",
+    "Sargento Brenn",
+    "Sargento Rolf",
+    "Tamborileiro Zico"
+   ],
+   "pedidos": 74
+  },
+  {
+   "nome": "Templo da Aurora",
+   "pessoas": [
+    "Sumo-Sacerdotisa Elowen",
+    "Bispo Aurelian Vey",
+    "Irmão Tobias",
+    "Padre Lorcan"
+   ],
+   "pedidos": 50
+  },
+  {
+   "nome": "Ala Arcana",
+   "pessoas": [
+    "Arquimaga Ondine",
+    "Mago Theron Ashgrave"
+   ],
+   "pedidos": 38
+  },
+  {
+   "nome": "Casa de Cura",
+   "pessoas": [
+    "Irmã Maelis"
+   ],
+   "pedidos": 30
+  },
+  {
+   "nome": "Tesouro Real",
+   "pessoas": [
+    "Coletor-Mor Aldous"
+   ],
+   "pedidos": 28
+  },
+  {
+   "nome": "Bardo Arcano",
+   "pessoas": [
+    "Banx"
+   ],
+   "pedidos": 21
+  },
+  {
+   "nome": "Reino de Valdoria",
+   "pessoas": [
+    "Embaixador Lucan Thessaly",
+    "Princesa Elenna"
+   ],
+   "pedidos": 19
+  },
+  {
+   "nome": "Conselho Real",
+   "pessoas": [
+    "Conselheiro Jodyr"
+   ],
+   "pedidos": 19
+  },
+  {
+   "nome": "Casa Valcourt",
+   "pessoas": [
+    "Duque Aldren Valcourt"
+   ],
+   "pedidos": 15
+  },
+  {
+   "nome": "Casa Ashfeld",
+   "pessoas": [
+    "Lorde Bertram Ashfeld",
+    "Lady Mirela Ashfeld",
+    "Gêmeo Edmund Ashfeld"
+   ],
+   "pedidos": 15
+  },
+  {
+   "nome": "Guilda dos Pedreiros",
+   "pessoas": [
+    "Mestre-de-obras Dorran",
+    "Mestre Dorran"
+   ],
+   "pedidos": 14
+  },
+  {
+   "nome": "Camponeses do Vale",
+   "pessoas": [
+    "Velho Garrick"
+   ],
+   "pedidos": 14
+  },
+  {
+   "nome": "Forte Thorendis",
+   "pessoas": [
+    "General Thorin",
+    "Mensageiro ferido"
+   ],
+   "pedidos": 14
+  },
+  {
+   "nome": "Vila do Rio",
+   "pessoas": [
+    "Pescador Tomé"
+   ],
+   "pedidos": 13
+  },
+  {
+   "nome": "Biblioteca Real",
+   "pessoas": [
+    "Serina Valdimere"
+   ],
+   "pedidos": 13
+  },
+  {
+   "nome": "Taverna do Sino",
+   "pessoas": [
+    "Taverneira Bessa",
+    "Sanfoneiro Juca"
+   ],
+   "pedidos": 12
+  },
+  {
+   "nome": "Guilda dos Mercadores",
+   "pessoas": [
+    "Mestra Ilsa Brannoc"
+   ],
+   "pedidos": 11
+  },
+  {
+   "nome": "Academia Real",
+   "pessoas": [
+    "Mestra Liana Orwen",
+    "Astrônomo Pell Varis",
+    "Cartógrafa Inês",
+    "Menina Lina"
+   ],
+   "pedidos": 11
+  },
+  {
+   "nome": "Aprendizes das guildas",
+   "pessoas": [
+    "Jovem Tomas"
+   ],
+   "pedidos": 11
+  },
+  {
+   "nome": "Montanhas do Norte",
+   "pessoas": [
+    "Caçador Jorah",
+    "Pastor Edmund"
+   ],
+   "pedidos": 11
+  },
+  {
+   "nome": "Reino de Morgrath",
+   "pessoas": [
+    "Emissário de Morgrath",
+    "Mensageiro de Morgrath",
+    "Mercador Grosk",
+    "Rei Vorgath de Morgrath"
+   ],
+   "pedidos": 10
+  },
+  {
+   "nome": "Poços da Cidade",
+   "pessoas": [
+    "Mestra Fen das Águas"
+   ],
+   "pedidos": 9
+  },
+  {
+   "nome": "Fiscais do Mercado",
+   "pessoas": [
+    "Inspetor Garreth"
+   ],
+   "pedidos": 9
+  },
+  {
+   "nome": "Patrulha do Norte",
+   "pessoas": [
+    "Batedor Fynn"
+   ],
+   "pedidos": 9
+  },
+  {
+   "nome": "Arquivos Reais",
+   "pessoas": [
+    "Conselheiro Jodyr",
+    "Escriba-Chefe Odo"
+   ],
+   "pedidos": 8
+  },
+  {
+   "nome": "Floresta Enevoada",
+   "pessoas": [
+    "Velha Morwen"
+   ],
+   "pedidos": 8
+  },
+  {
+   "nome": "Vila de Pedraverde",
+   "pessoas": [
+    "Lavradora Ana"
+   ],
+   "pedidos": 8
+  },
+  {
+   "nome": "Cavaleiros de Arcadia",
+   "pessoas": [
+    "Sir Edric Faulkner",
+    "Sir Godric o Velho"
+   ],
+   "pedidos": 7
+  },
+  {
+   "nome": "Casa Crane",
+   "pessoas": [
+    "Barão Halvard Crane"
+   ],
+   "pedidos": 7
+  },
+  {
+   "nome": "Ordem da Chama Pura",
+   "pessoas": [
+    "Inquisidor Malvert"
+   ],
+   "pedidos": 7
+  },
+  {
+   "nome": "Porto do Rio",
+   "pessoas": [
+    "Mestre Corin Vale",
+    "Capitão do Porto"
+   ],
+   "pedidos": 7
+  },
+  {
+   "nome": "Capela do Vale",
+   "pessoas": [
+    "Sacerdote Fennick"
+   ],
+   "pedidos": 7
+  },
+  {
+   "nome": "Mosteiro das Colinas",
+   "pessoas": [
+    "Irmão Ansel"
+   ],
+   "pedidos": 7
+  },
+  {
+   "nome": "Guilda dos Padeiros",
+   "pessoas": [
+    "Mestre Hollis"
+   ],
+   "pedidos": 7
+  },
+  {
+   "nome": "Forja Real",
+   "pessoas": [
+    "Ferreiro-Mor Gundar"
+   ],
+   "pedidos": 7
+  },
+  {
+   "nome": "Vilas do Norte",
+   "pessoas": [
+    "Lenhador Ulf"
+   ],
+   "pedidos": 7
+  },
+  {
+   "nome": "Guarda do Rio",
+   "pessoas": [
+    "Almirante Corvo"
+   ],
+   "pedidos": 7
+  },
+  {
+   "nome": "Assembleia Nobre",
+   "pessoas": [
+    "Conselho das Casas"
+   ],
+   "pedidos": 6
+  },
+  {
+   "nome": "Prisão Real Pedra Fria",
+   "pessoas": [
+    "Carcereiro Mord"
+   ],
+   "pedidos": 6
+  },
+  {
+   "nome": "Reino de Ostmar",
+   "pessoas": [
+    "Embaixador de Ostmar"
+   ],
+   "pedidos": 6
+  },
+  {
+   "nome": "Companhia das Índias do Sul",
+   "pessoas": [
+    "Signore Bastiani"
+   ],
+   "pedidos": 6
+  },
+  {
+   "nome": "Pastos do Vale",
+   "pessoas": [
+    "Vaqueiro Tião Barbacena",
+    "Menino Tonico"
+   ],
+   "pedidos": 6
+  },
+  {
+   "nome": "Cachoeira das Sete Quedas",
+   "pessoas": [
+    "Barqueiro Lino",
+    "Garimpeiro Totó"
+   ],
+   "pedidos": 6
+  },
+  {
+   "nome": "Pastos das Colinas",
+   "pessoas": [
+    "Criador Bento Lã"
+   ],
+   "pedidos": 6
+  },
+  {
+   "nome": "Casa Marrav",
+   "pessoas": [
+    "Condessa Ysolde Marrav"
+   ],
+   "pedidos": 5
+  },
+  {
+   "nome": "Casa Morvain",
+   "pessoas": [
+    "Lady Corvina Morvain"
+   ],
+   "pedidos": 5
+  },
+  {
+   "nome": "Casa Bancária Orsini",
+   "pessoas": [
+    "Signore Orsini"
+   ],
+   "pedidos": 5
+  },
+  {
+   "nome": "Companhia das Pedreiras",
+   "pessoas": [
+    "Mestre Dorgan"
+   ],
+   "pedidos": 5
+  },
+  {
+   "nome": "Povo da Floresta",
+   "pessoas": [
+    "Anciã Sela"
+   ],
+   "pedidos": 5
+  },
+  {
+   "nome": "Pedreiras do Norte",
+   "pessoas": [
+    "Mineiro Bram"
+   ],
+   "pedidos": 5
+  },
+  {
+   "nome": "Cemitério da Colina",
+   "pessoas": [
+    "Coveiro Silas",
+    "Dona Benta das Velas"
+   ],
+   "pedidos": 5
+  },
+  {
+   "nome": "Aldeia de Sabugueiro",
+   "pessoas": [
+    "Lavrador Nestor"
+   ],
+   "pedidos": 5
+  },
+  {
+   "nome": "Casa Vane",
+   "pessoas": [
+    "Baronesa Isaura Vane",
+    "Barão Ulrich Vane"
+   ],
+   "pedidos": 5
+  },
+  {
+   "nome": "Os Vigilantes",
+   "pessoas": [
+    "Encapuzado sem nome"
+   ],
+   "pedidos": 4
+  },
+  {
+   "nome": "Comerciante da cidade",
+   "pessoas": [
+    "Mercador Pip Lowell"
+   ],
+   "pedidos": 4
+  },
+  {
+   "nome": "Mercadora do rio",
+   "pessoas": [
+    "Capitã Marisa Doran"
+   ],
+   "pedidos": 4
+  },
+  {
+   "nome": "Tribunal da Cidade",
+   "pessoas": [
+    "Juiz Brennan"
+   ],
+   "pedidos": 4
+  },
+  {
+   "nome": "Caravana dos Andarilhos",
+   "pessoas": [
+    "Mestre Lazlo"
+   ],
+   "pedidos": 4
+  },
+  {
+   "nome": "Torre das Estrelas",
+   "pessoas": [
+    "Astrólogo Melchior"
+   ],
+   "pedidos": 4
+  },
+  {
+   "nome": "Ateliê da Colina",
+   "pessoas": [
+    "Escultor Remi",
+    "Mestre Fogueteiro Ruy",
+    "Pintor Tiago"
+   ],
+   "pedidos": 4
+  },
+  {
+   "nome": "Torre do Templo",
+   "pessoas": [
+    "Sineiro Pim"
+   ],
+   "pedidos": 4
+  },
+  {
+   "nome": "Feira de Pedraverde",
+   "pessoas": [
+    "Repentista Zé Calango",
+    "Tiradentes Joaquim",
+    "Zé Calango",
+    "Doceira Dona Cocada"
+   ],
+   "pedidos": 4
+  },
+  {
+   "nome": "Moinhos de Ventoalto",
+   "pessoas": [
+    "Moleiro Anselmo"
+   ],
+   "pedidos": 4
+  },
+  {
+   "nome": "Romeiros do Monte Claro",
+   "pessoas": [
+    "Romeiro Severino"
+   ],
+   "pedidos": 4
+  },
+  {
+   "nome": "Sem nome",
+   "pessoas": [
+    "O Estranho"
+   ],
+   "pedidos": 4
+  },
+  {
+   "nome": "Viajante do sul",
+   "pessoas": [
+    "Mercador Ezequias",
+    "Mascate Ibrahim",
+    "Mestre-de-armas Iñigo"
+   ],
+   "pedidos": 3
+  },
+  {
+   "nome": "Companhia do Sal",
+   "pessoas": [
+    "Mercador Varrus Kell"
+   ],
+   "pedidos": 3
+  },
+  {
+   "nome": "Caravanas do Rio",
+   "pessoas": [
+    "Mercadora Orla Venn"
+   ],
+   "pedidos": 3
+  },
+  {
+   "nome": "Casa Blackmere",
+   "pessoas": [
+    "Sir Orwin Blackmere"
+   ],
+   "pedidos": 3
+  },
+  {
+   "nome": "Casa Pryce",
+   "pessoas": [
+    "Lorde Pryce"
+   ],
+   "pedidos": 3
+  },
+  {
+   "nome": "Estalagem do Grifo",
+   "pessoas": [
+    "Dona Rosalind"
+   ],
+   "pedidos": 3
+  },
+  {
+   "nome": "Rua dos Escribas",
+   "pessoas": [
+    "Livreiro Elian Moss"
+   ],
+   "pedidos": 3
+  },
+  {
+   "nome": "Bairro baixo",
+   "pessoas": [
+    "Parteira Odila"
+   ],
+   "pedidos": 3
+  },
+  {
+   "nome": "Estábulos Reais",
+   "pessoas": [
+    "Mestre-estribeiro Hal"
+   ],
+   "pedidos": 3
+  },
+  {
+   "nome": "Companhia Lâmina Cinza",
+   "pessoas": [
+    "Capitão Varek"
+   ],
+   "pedidos": 3
+  },
+  {
+   "nome": "Viajante do leste",
+   "pessoas": [
+    "Mercadora Zaida"
+   ],
+   "pedidos": 3
+  },
+  {
+   "nome": "Cozinha do Castelo",
+   "pessoas": [
+    "Cozinheira-Mor Gertrudes"
+   ],
+   "pedidos": 3
+  },
+  {
+   "nome": "Estrada Real",
+   "pessoas": [
+    "Cantador Cego Aderaldo",
+    "Carroceiro Joca"
+   ],
+   "pedidos": 3
+  },
+  {
+   "nome": "Bairro das Forjas",
+   "pessoas": [
+    "Ferreiro Hask"
+   ],
+   "pedidos": 3
+  },
+  {
+   "nome": "Bairro do Porto",
+   "pessoas": [
+    "Viúva Rosa"
+   ],
+   "pedidos": 3
+  },
+  {
+   "nome": "Torre dos Pombos",
+   "pessoas": [
+    "Velho Bartô"
+   ],
+   "pedidos": 3
+  },
+  {
+   "nome": "Convento de Brumafria",
+   "pessoas": [
+    "Abadessa Hilde"
+   ],
+   "pedidos": 3
+  },
+  {
+   "nome": "Guildas de Arcadia",
+   "pessoas": [
+    "Conselho das Guildas"
+   ],
+   "pedidos": 2
+  },
+  {
+   "nome": "Ordem das Peregrinas",
+   "pessoas": [
+    "Madre Isolde"
+   ],
+   "pedidos": 2
+  },
+  {
+   "nome": "Tinturaria do Rio",
+   "pessoas": [
+    "Mestra Yvaine"
+   ],
+   "pedidos": 2
+  },
+  {
+   "nome": "Rua do Sino",
+   "pessoas": [
+    "Menina Lina"
+   ],
+   "pedidos": 2
+  },
+  {
+   "nome": "Arqueiros da Guarda",
+   "pessoas": [
+    "Darrow"
+   ],
+   "pedidos": 2
+  },
+  {
+   "nome": "Sem casa",
+   "pessoas": [
+    "O Eremita da Colina"
+   ],
+   "pedidos": 2
+  },
+  {
+   "nome": "Pastores das Colinas",
+   "pessoas": [
+    "Criador Bento Lã"
+   ],
+   "pedidos": 2
+  },
+  {
+   "nome": "Guarnição do Sul",
+   "pessoas": [
+    "Mensageiro do Sul",
+    "General Rhoan"
+   ],
+   "pedidos": 2
+  },
+  {
+   "nome": "Torre de Vidro",
+   "pessoas": [
+    "Alquimista Varro"
+   ],
+   "pedidos": 2
+  },
+  {
+   "nome": "Vilas do Sul",
+   "pessoas": [
+    "Mensageiro do Sul"
+   ],
+   "pedidos": 2
+  },
+  {
+   "nome": "Veteranos da Guarda",
+   "pessoas": [
+    "Soldado Velho Bento"
+   ],
+   "pedidos": 2
+  },
+  {
+   "nome": "Colégio dos Arautos",
+   "pessoas": [
+    "Arauto-Mor Gilles"
+   ],
+   "pedidos": 2
+  },
+  {
+   "nome": "Jardins do Castelo",
+   "pessoas": [
+    "Jardineiro-Mor Florian"
+   ],
+   "pedidos": 2
+  },
+  {
+   "nome": "Rua dos Ourives",
+   "pessoas": [
+    "Ourives Benedito",
+    "Relojoeiro Klaus"
+   ],
+   "pedidos": 2
+  },
+  {
+   "nome": "Oficina de Vidro",
+   "pessoas": [
+    "Vidreiro Murano"
+   ],
+   "pedidos": 2
+  },
+  {
+   "nome": "Mercenária do norte",
+   "pessoas": [
+    "Guerreira Ingrid"
+   ],
+   "pedidos": 2
+  },
+  {
+   "nome": "Pântano de Lodomar",
+   "pessoas": [
+    "Nhá Joana"
+   ],
+   "pedidos": 2
+  },
+  {
+   "nome": "Bairro dos Teares",
+   "pessoas": [
+    "Guilda dos Tecelões"
+   ],
+   "pedidos": 1
+  },
+  {
+   "nome": "Sem Casa",
+   "pessoas": [
+    "Jovem Rowan"
+   ],
+   "pedidos": 1
+  },
+  {
+   "nome": "Carvoeiros da Floresta",
+   "pessoas": [
+    "Mestre Corvin"
+   ],
+   "pedidos": 1
+  },
+  {
+   "nome": "Lavadeiras do Rio",
+   "pessoas": [
+    "Dona Clotilde"
+   ],
+   "pedidos": 1
+  },
+  {
+   "nome": "Patrulha do Sul",
+   "pessoas": [
+    "Batedor Fynn"
+   ],
+   "pedidos": 1
+  },
+  {
+   "nome": "Trovador de Valdoria",
+   "pessoas": [
+    "Menestrel Cassio"
+   ],
+   "pedidos": 1
+  },
+  {
+   "nome": "Rendeiras de Brumafria",
+   "pessoas": [
+    "Rendeira Dona Fiinha"
+   ],
+   "pedidos": 1
+  },
+  {
+   "nome": "Benzedeira da Vila do Rio",
+   "pessoas": [
+    "Mãe Quitéria"
+   ],
+   "pedidos": 1
+  },
+  {
+   "nome": "Colinas do Oeste",
+   "pessoas": [
+    "Gaiteiro Pio"
+   ],
+   "pedidos": 1
+  },
+  {
+   "nome": "Mercado de Baixo",
+   "pessoas": [
+    "Peixeira Dona Zefa"
+   ],
+   "pedidos": 1
+  },
+  {
+   "nome": "Engenho do Vale",
+   "pessoas": [
+    "Destilador Cazuza"
+   ],
+   "pedidos": 1
+  },
+  {
+   "nome": "Casa Corvane",
+   "pessoas": [
+    "Lorde Amaury Corvane"
+   ],
+   "pedidos": 1
+  },
+  {
+   "nome": "Cervejaria do Rio",
+   "pessoas": [
+    "Mestre Cervejeiro Otto"
+   ],
+   "pedidos": 1
+  },
+  {
+   "nome": "Rua dos Couros",
+   "pessoas": [
+    "Luveiro Marcel"
+   ],
+   "pedidos": 1
+  },
+  {
+   "nome": "Rua dos Curtumes",
+   "pessoas": [
+    "Saboeira Dona Lia"
+   ],
+   "pedidos": 1
+  },
+  {
+   "nome": "Ateliê das Agulhas",
+   "pessoas": [
+    "Bordadeira Celeste"
+   ],
+   "pedidos": 1
+  },
+  {
+   "nome": "Barbearia Real",
+   "pessoas": [
+    "Barbeiro Fígaro"
+   ],
+   "pedidos": 1
+  },
+  {
+   "nome": "Bandido do Vale",
+   "pessoas": [
+    "O Raposa"
+   ],
+   "pedidos": 1
+  },
+  {
+   "nome": "Pretendente de Montclaro",
+   "pessoas": [
+    "Jovem Aurélio"
+   ],
+   "pedidos": 1
+  },
+  {
+   "nome": "Sem brasão",
+   "pessoas": [
+    "Cavaleiro Negro"
+   ],
+   "pedidos": 1
+  },
+  {
+   "nome": "Cidade Baixa",
+   "pessoas": [
+    "Prefeito eleito"
+   ],
+   "pedidos": 1
+  },
+  {
+   "nome": "Cavaleiro de Argenthal",
+   "pessoas": [
+    "Rowan de Argenthal"
+   ],
+   "pedidos": 1
+  }
+ ],
+ "lugares": [
+  {
+   "lugar": "Arcadia",
+   "mencoes": 107,
+   "pedidos": [
+    "isencao",
+    "hereges2",
+    "sal",
+    "tratado",
+    "seita",
+    "refugiados",
+    "brasao",
+    "peregrinos",
+    "confissao",
+    "banx_show",
+    "moeda",
+    "minas2",
+    "navio",
+    "feira_livros",
+    "vinho_valdoria",
+    "mendicancia",
+    "praca_nova",
+    "espiao2",
+    "mercenarios",
+    "grifo",
+    "runa_apagada",
+    "caderno2",
+    "princesa",
+    "casamento_real",
+    "tributo_valdoria",
+    "refens",
+    "terremoto",
+    "censo",
+    "cartografo",
+    "lenda_lago",
+    "estatua",
+    "valdoria_guerra",
+    "valdoria_magoa",
+    "r_santo",
+    "r_feira_mundial",
+    "r_guilda_greve",
+    "r_seca",
+    "r_golpe_militar",
+    "r_muralha_total",
+    "r_mercenarios_grandes",
+    "r_frota",
+    "r_portal",
+    "r_fonte_magia",
+    "r_principe",
+    "r_concilio",
+    "r_inquisicao",
+    "r_templo_novo",
+    "r_banco_real",
+    "r_rota_especiarias",
+    "r_moeda_nova",
+    "r_rebeliao_sul",
+    "r_escola_reino",
+    "r_milicia_povo",
+    "r_alianca_militar",
+    "r_livro_mortos",
+    "r_feiticeira_rainha",
+    "r_hospital",
+    "r_reforma_guarda",
+    "r_coroacao_valdoria",
+    "n_cego",
+    "n_fogos",
+    "n_pintor",
+    "n_violeiros",
+    "n_cafe",
+    "n_tecelagem",
+    "n_correios",
+    "n_sedas_ostmar",
+    "n_cavalaria",
+    "n_mapa_fronteira",
+    "n_bravura",
+    "n_ostmar_festa",
+    "n_valdoria_bolsa",
+    "n_arqueologia",
+    "n_guerreira_estrangeira",
+    "d_mocas3",
+    "d_prin4",
+    "d_falsa3",
+    "d_negro1",
+    "d_negro2",
+    "d_ouro3",
+    "d_banco3",
+    "d_ilha2",
+    "d_ilha3",
+    "d_estranho2",
+    "e_moeda_cobre_decreto",
+    "e_pensao_viuvas",
+    "e_cavalaria_real",
+    "e_doca_seca",
+    "e_taxa_estrangeiro",
+    "e_monopolio_vidro",
+    "e_casa_orfaos",
+    "e_proibe_servidao",
+    "x_moeda_valdoria",
+    "x_guerra_valdoria",
+    "x_revolucao",
+    "x_aliado_ostmar",
+    "x_concilio_reis",
+    "x_peste_gado_reino",
+    "x_moeda_derrete",
+    "x_estatua_fundador",
+    "x_portal_morgrath",
+    "x_casamento_princesa",
+    "x_magia_proibida",
+    "x_ouro_estrangeiro",
+    "x_aliados_traem",
+    "x_ultimo_banquete",
+    "x_fundador_volta"
+   ]
+  },
+  {
+   "lugar": "vale",
+   "mencoes": 96,
+   "pedidos": [
+    "terras",
+    "torneio",
+    "templo",
+    "fome",
+    "saque",
+    "castelo_marrav",
+    "pedagio_nobre",
+    "fofoca_corte",
+    "milagre_poco",
+    "templo_terras",
+    "templo_novo",
+    "cambio2",
+    "curandeira_vila",
+    "festa_junina",
+    "migrantes_vale",
+    "menino_heroi",
+    "cavaleiro_novo",
+    "exercito_vale",
+    "chuva_magica",
+    "nevoa",
+    "fronteira_sul",
+    "praga_gafanhoto",
+    "cartografo",
+    "caravana_perdida",
+    "r_guerra_casas",
+    "r_revolta_vale",
+    "r_rebeliao_sul",
+    "r_espada_rei",
+    "r_trigo_publico",
+    "r_espelho2",
+    "r_coroacao_valdoria",
+    "n_vaqueiro",
+    "n_quermesse",
+    "n_moleiro",
+    "n_ferreiro_vila",
+    "n_bezerro",
+    "n_feira_gado",
+    "n_gaiteiro",
+    "n_aguardente",
+    "n_cacada_lebre",
+    "n_servo_libertado",
+    "n_cavaleiro_velho",
+    "n_cerimonia_espora",
+    "n_cao_caca",
+    "n_guarda_honra",
+    "n_santa_vila",
+    "n_milagre_falso",
+    "n_correios",
+    "n_arqueiros",
+    "n_ponte_levadica",
+    "n_arsenal_flechas",
+    "n_guarda_mulheres",
+    "n_bravura",
+    "n_valk_ferias",
+    "n_carroca_presa",
+    "n_vila_nova",
+    "n_ferreiro_magico",
+    "n_lenda_heroi",
+    "n_lavoura_cooperativa",
+    "d_raposa1",
+    "d_raposa3",
+    "d_raposa4",
+    "d_mont2",
+    "d_mont3",
+    "d_mont4",
+    "d_gado1",
+    "d_visao3",
+    "d_canal1",
+    "d_canal3",
+    "d_negro1",
+    "d_negro2",
+    "d_banco1",
+    "d_banco2",
+    "d_banco3",
+    "d_grifos3",
+    "e_aulas_noite",
+    "e_cavalaria_real",
+    "e_premio_colheita",
+    "e_moinho_real",
+    "e_torneio_mensal",
+    "e_sementes",
+    "e_tributo_moinho",
+    "e_cavalos_correio",
+    "e_moeda_forte",
+    "x_falsificacao_selo",
+    "x_morgrath_paz",
+    "x_falencia_coroa",
+    "x_casamento_morgrath",
+    "x_rebeldes_sul",
+    "x_casa_ashfeld_cai",
+    "x_guerra_civil",
+    "x_cheia_seculo",
+    "x_moeda_derrete",
+    "x_ordem_grifo_guerra",
+    "x_aliados_traem",
+    "x_ultimo_banquete"
+   ]
+  },
+  {
+   "lugar": "Morgrath",
+   "mencoes": 58,
+   "pedidos": [
+    "tributo",
+    "guerra",
+    "cambio",
+    "cambio2",
+    "carvao",
+    "praga_ratos",
+    "arsenal",
+    "espiao_morgrath",
+    "espiao2",
+    "muralha_oeste",
+    "fronteira_sul",
+    "desertores2",
+    "refens",
+    "valdoria_guerra",
+    "r_invasao",
+    "r_frota",
+    "r_rota_especiarias",
+    "r_cerco",
+    "r_espioes",
+    "r_alianca_militar",
+    "r_resgate_rei",
+    "r_arma_secreta",
+    "r_arma2",
+    "r_espelho2",
+    "n_rapto",
+    "n_mapa_fronteira",
+    "n_prisioneiros",
+    "n_cachorros_guerra",
+    "n_balestras",
+    "n_grimorio_leilao",
+    "n_morgrath_comercio",
+    "n_embaixador_rude",
+    "d_mocas2",
+    "d_mocas3",
+    "d_mocas4",
+    "d_gado1",
+    "d_gemeo2",
+    "d_gemeo3",
+    "d_torre2",
+    "d_grifos2",
+    "d_grifos3",
+    "e_ajuda_refugiados",
+    "x_ponte_seca",
+    "x_grifos_morgrath",
+    "x_morgrath_paz",
+    "x_casamento_morgrath",
+    "x_ultimo_grifo",
+    "x_rei_sequestrado",
+    "x_guerra_valdoria",
+    "x_cerco_porto",
+    "x_alianca_dragao",
+    "x_templo_ouro_morgrath",
+    "x_terra_queimada",
+    "x_arcadia_vende_sul",
+    "x_portal_morgrath",
+    "x_ordem_grifo_guerra",
+    "x_ultima_batalha",
+    "x_aliados_traem"
+   ]
+  },
+  {
+   "lugar": "Valdoria",
+   "mencoes": 54,
+   "pedidos": [
+    "reliquia",
+    "porto",
+    "tratado",
+    "nomeacao",
+    "feira_livros",
+    "vinho_valdoria",
+    "cavalos",
+    "dragao2",
+    "livro_vigilante",
+    "princesa",
+    "tributo_valdoria",
+    "embaixada",
+    "colheita_farta",
+    "valdoria_guerra",
+    "valdoria_magoa",
+    "menestrel_rival",
+    "r_frota",
+    "r_portal",
+    "r_portal2",
+    "r_crise_trigo",
+    "r_espioes",
+    "r_alianca_militar",
+    "r_hospital",
+    "r_coroacao_valdoria",
+    "n_jardim_real",
+    "n_estudo_herdeiro",
+    "n_tecelagem",
+    "n_concorrencia",
+    "n_armeiro",
+    "n_soldado_cego",
+    "n_balestras",
+    "n_valdoria_bolsa",
+    "d_prin1",
+    "d_prin2",
+    "d_prin3",
+    "d_prin4",
+    "d_ouro2",
+    "d_ilha1",
+    "d_ilha2",
+    "d_ilha3",
+    "e_moeda_cobre_decreto",
+    "e_taxa_estrangeiro",
+    "e_bolsa_valdoria",
+    "e_vinho_corte",
+    "x_tesoureiro",
+    "x_fuga_nobres",
+    "x_valdoria_divida",
+    "x_moeda_valdoria",
+    "x_ondine_morre",
+    "x_guerra_valdoria",
+    "x_magos_fogem",
+    "x_kael_traicao",
+    "x_casamento_princesa",
+    "x_aliados_traem"
+   ]
+  },
+  {
+   "lugar": "Vhalkir",
+   "mencoes": 53,
+   "pedidos": [
+    "serpente",
+    "selo",
+    "vhalkir",
+    "caca",
+    "fonte2",
+    "dragao",
+    "sala2",
+    "runa_apagada",
+    "pacto_floresta",
+    "caderno2",
+    "terremoto",
+    "neve",
+    "lua_vermelha",
+    "r_cruzada",
+    "r_prata",
+    "r_ritual",
+    "r_imortal",
+    "r_arsenal_runico",
+    "r_vhalkir_abre",
+    "r_ponte_norte",
+    "r_dragao_alianca",
+    "n_festa_neve",
+    "n_viagem_norte",
+    "d_sino3",
+    "d_sino4",
+    "d_agua2",
+    "d_agua3",
+    "d_fera1",
+    "d_fera3",
+    "d_fera4",
+    "d_visao1",
+    "d_visao3",
+    "d_bruxa3",
+    "d_estranho2",
+    "d_estranho3",
+    "e_ajuda_vilas_norte",
+    "e_toque_recolher_norte",
+    "e_tributo_vila_norte",
+    "x_inverno_eterno",
+    "x_ilha_ouro",
+    "x_reliquia_vhalkir",
+    "x_fogo_biblioteca",
+    "x_ondine_morre",
+    "x_magos_fogem",
+    "x_vhalkir_abre2",
+    "x_alianca_dragao",
+    "x_mago_negro",
+    "x_coroa_negra_rei",
+    "x_tesouro_fundador",
+    "x_peste_magica",
+    "x_sacrificio_ondine",
+    "x_peste_ouro",
+    "x_sombras_cidade"
+   ]
+  },
+  {
+   "lugar": "bairro baixo",
+   "mencoes": 45,
+   "pedidos": [
+    "banquete",
+    "casamento",
+    "mendigos",
+    "curandeiras",
+    "epidemia",
+    "pregador",
+    "pocos",
+    "escola",
+    "vigilantes",
+    "refugiados",
+    "duelo",
+    "servos",
+    "reliquias_roubadas",
+    "praga_ratos",
+    "parteiras",
+    "praca_nova",
+    "escola_musica",
+    "treino",
+    "pedra_fria",
+    "sala2",
+    "aprendiz_magia",
+    "terremoto",
+    "curas_banho",
+    "r_peste_negra",
+    "r_incendio_cidade",
+    "r_motim_prisao",
+    "n_cacimba",
+    "n_pintor",
+    "n_batismo_massa",
+    "n_coro",
+    "n_concorrencia",
+    "n_runa_casa",
+    "n_estatua_quebrada",
+    "n_ervanario",
+    "d_gado4",
+    "d_canal2",
+    "e_sopa_inverno",
+    "e_dizimo_reduzido",
+    "e_aluguel_maximo",
+    "e_obras_publicas",
+    "e_dote_noivas",
+    "e_campanha_limpeza",
+    "x_terremoto_grande",
+    "x_epidemia_nobres",
+    "x_peste_magica"
+   ]
+  },
+  {
+   "lugar": "Thorendis",
+   "mencoes": 15,
+   "pedidos": [
+    "thorin",
+    "fronteira",
+    "kael",
+    "brasao",
+    "valk_pai",
+    "torre_fogo",
+    "r_thorin_morre",
+    "n_aleijado",
+    "n_cavaleiro_velho",
+    "n_monja",
+    "n_estandarte",
+    "e_estradas_norte",
+    "x_ponte_seca",
+    "x_morgrath_paz",
+    "x_ultima_batalha"
+   ]
+  },
+  {
+   "lugar": "Ala Arcana",
+   "mencoes": 12,
+   "pedidos": [
+    "hereges",
+    "hereges2",
+    "dragao2",
+    "aprendiz_magia",
+    "feitico_amor",
+    "r_fonte_magia",
+    "r_livro_mortos",
+    "n_grimorio_leilao",
+    "d_visao1",
+    "d_visao3",
+    "e_licenca_magia",
+    "x_magia_proibida"
+   ]
+  },
+  {
+   "lugar": "Pedra Fria",
+   "mencoes": 12,
+   "pedidos": [
+    "traidor",
+    "sabotador",
+    "greve",
+    "bandos_jovens",
+    "espiao_morgrath",
+    "pedra_fria",
+    "fuga_pedra",
+    "r_contrabando",
+    "r_motim_prisao",
+    "e_cadeia_trabalho",
+    "e_reforma_prisao",
+    "x_prisao_lotada"
+   ]
+  },
+  {
+   "lugar": "Ostmar",
+   "mencoes": 12,
+   "pedidos": [
+    "casamento_real",
+    "r_principe",
+    "r_alianca_militar",
+    "n_rota_sal",
+    "n_sedas_ostmar",
+    "n_cavalaria",
+    "n_espadachim",
+    "n_ostmar_festa",
+    "e_cavalaria_real",
+    "e_exportar_la",
+    "e_alianca_ostmar",
+    "x_aliado_ostmar"
+   ]
+  },
+  {
+   "lugar": "Brumafria",
+   "mencoes": 11,
+   "pedidos": [
+    "n_rendeiras",
+    "n_monja",
+    "n_ordem_hospitalaria",
+    "n_aprendiz_fugido",
+    "n_neve_teto",
+    "n_inverno_lobos",
+    "d_fera1",
+    "d_fera2",
+    "d_cozinha1",
+    "e_mercado_noturno2",
+    "x_vila_vhalkir"
+   ]
+  },
+  {
+   "lugar": "Casa de Cura",
+   "mencoes": 10,
+   "pedidos": [
+    "mendigos",
+    "curandeiras",
+    "feiticeira",
+    "r_hospital",
+    "n_pedreira_poeira",
+    "n_hospital_templo",
+    "n_sabao",
+    "n_cristal_cura",
+    "n_ervanario",
+    "d_agua2"
+   ]
+  },
+  {
+   "lugar": "Mercado Central",
+   "mencoes": 10,
+   "pedidos": [
+    "mendigos",
+    "dizimo",
+    "feira",
+    "jejum",
+    "pesos",
+    "incendio_mercado",
+    "n_rendeiras",
+    "n_pombos_praga",
+    "e_policia_mercado",
+    "x_mago_negro"
+   ]
+  },
+  {
+   "lugar": "Pedraverde",
+   "mencoes": 8,
+   "pedidos": [
+    "casamento_vila",
+    "n_feira_troca",
+    "n_herdeira_vila",
+    "n_violeiros",
+    "n_guarnicao_vila",
+    "n_doceira",
+    "n_lavoura_cooperativa",
+    "d_raposa2"
+   ]
+  },
+  {
+   "lugar": "Forte Thorendis",
+   "mencoes": 7,
+   "pedidos": [
+    "thorin",
+    "fronteira",
+    "valk_pai",
+    "r_thorin_morre",
+    "e_estradas_norte",
+    "x_ponte_seca",
+    "x_morgrath_paz"
+   ]
+  },
+  {
+   "lugar": "Vale",
+   "mencoes": 7,
+   "pedidos": [
+    "concurso_poesia",
+    "caravana_perdida",
+    "n_quermesse",
+    "n_pato_real",
+    "n_vila_nova",
+    "d_canal1",
+    "d_ovo2"
+   ]
+  },
+  {
+   "lugar": "Sabugueiro",
+   "mencoes": 6,
+   "pedidos": [
+    "n_poco_seco",
+    "n_bandidos_vila",
+    "n_cadeia_vila",
+    "n_igreja_sinos_vila",
+    "d_bruxa2",
+    "d_bruxa3"
+   ]
+  },
+  {
+   "lugar": "Montclaro",
+   "mencoes": 5,
+   "pedidos": [
+    "r_duque_morre",
+    "d_mont1",
+    "d_mont2",
+    "d_mont3",
+    "d_gado1"
+   ]
+  },
+  {
+   "lugar": "Estrada Real",
+   "mencoes": 5,
+   "pedidos": [
+    "n_cruz_estrada",
+    "n_hospedaria_estrada",
+    "n_carroca_presa",
+    "e_guarda_estrada",
+    "x_rei_sequestrado"
+   ]
+  },
+  {
+   "lugar": "Monte Claro",
+   "mencoes": 5,
+   "pedidos": [
+    "peregrinos",
+    "n_peregrinacao_nobre",
+    "n_festa_santo",
+    "e_romaria_anual",
+    "x_peregrinos_massa"
+   ]
+  },
+  {
+   "lugar": "Biblioteca Real",
+   "mencoes": 4,
+   "pedidos": [
+    "serina",
+    "heresia_livro",
+    "d_ilha2",
+    "x_fogo_biblioteca"
+   ]
+  },
+  {
+   "lugar": "Taverna do Sino",
+   "mencoes": 4,
+   "pedidos": [
+    "recolher",
+    "aprendizes",
+    "mineiros_greve",
+    "n_tavernas_impostos"
+   ]
+  },
+  {
+   "lugar": "Argenthal",
+   "mencoes": 4,
+   "pedidos": [
+    "bastardo",
+    "jodyr_coruja",
+    "d_negro2",
+    "d_negro3"
+   ]
+  },
+  {
+   "lugar": "Salão Real",
+   "mencoes": 3,
+   "pedidos": [
+    "banquete",
+    "n_repentista",
+    "n_retrato"
+   ]
+  },
+  {
+   "lugar": "Sete Quedas",
+   "mencoes": 3,
+   "pedidos": [
+    "n_ponte_corda",
+    "n_ouro_rio",
+    "d_balsa3"
+   ]
+  },
+  {
+   "lugar": "Ilha da Garça",
+   "mencoes": 3,
+   "pedidos": [
+    "d_ilha1",
+    "d_ilha2",
+    "d_ilha3"
+   ]
+  },
+  {
+   "lugar": "Ponte Seca",
+   "mencoes": 3,
+   "pedidos": [
+    "d_torre3",
+    "e_ajuda_refugiados",
+    "x_ponte_seca"
+   ]
+  },
+  {
+   "lugar": "Templo da Aurora",
+   "mencoes": 2,
+   "pedidos": [
+    "templo",
+    "x_templo_cai"
+   ]
+  },
+  {
+   "lugar": "Rua do Sino",
+   "mencoes": 2,
+   "pedidos": [
+    "feira_trabalho",
+    "n_calcada"
+   ]
+  },
+  {
+   "lugar": "Ventoalto",
+   "mencoes": 2,
+   "pedidos": [
+    "n_moleiro",
+    "e_moinho_real"
+   ]
+  },
+  {
+   "lugar": "Pântano de Lodomar",
+   "mencoes": 2,
+   "pedidos": [
+    "n_bandidos_vila",
+    "d_bruxa1"
+   ]
+  },
+  {
+   "lugar": "Lodomar",
+   "mencoes": 2,
+   "pedidos": [
+    "n_bandidos_vila",
+    "d_bruxa1"
+   ]
+  },
+  {
+   "lugar": "lago da voz",
+   "mencoes": 2,
+   "pedidos": [
+    "lenda_lago",
+    "r_espada_rei"
+   ]
+  },
+  {
+   "lugar": "ponte do norte",
+   "mencoes": 2,
+   "pedidos": [
+    "guerra",
+    "r_ponte_norte"
+   ]
+  },
+  {
+   "lugar": "campina do rio",
+   "mencoes": 2,
+   "pedidos": [
+    "torneio",
+    "e_torneio_mensal"
+   ]
+  },
+  {
+   "lugar": "Academia Real",
+   "mencoes": 1,
+   "pedidos": [
+    "escola"
+   ]
+  },
+  {
+   "lugar": "Arquivos Reais",
+   "mencoes": 1,
+   "pedidos": [
+    "seita2"
+   ]
+  },
+  {
+   "lugar": "Farol",
+   "mencoes": 1,
+   "pedidos": [
+    "porto"
+   ]
+  },
+  {
+   "lugar": "Floresta Enevoada",
+   "mencoes": 1,
+   "pedidos": [
+    "e_protecao_florestas"
+   ]
+  },
+  {
+   "lugar": "floresta densa",
+   "mencoes": 1,
+   "pedidos": [
+    "carvao"
+   ]
+  },
+  {
+   "lugar": "Montanhas do Norte",
+   "mencoes": 1,
+   "pedidos": [
+    "n_viagem_norte"
+   ]
+  },
+  {
+   "lugar": "Torre de Vidro",
+   "mencoes": 1,
+   "pedidos": [
+    "r_pedra2"
+   ]
+  },
+  {
+   "lugar": "vau do norte",
+   "mencoes": 1,
+   "pedidos": [
+    "desertores2"
+   ]
+  },
+  {
+   "lugar": "Vila Esperança",
+   "mencoes": 1,
+   "pedidos": [
+    "n_vila_nova"
+   ]
+  }
+ ]
+}
