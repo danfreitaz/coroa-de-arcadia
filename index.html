@@ -400,7 +400,7 @@ const END={
   povo0:['A Revolta do Vale','Os camponeses desceram do vale com foices e tochas. As muralhas não foram feitas pra conter o próprio povo.'],
   povo100:['O Rei do Povo','O povo te ama tanto que as Casas e o Templo se uniram contra você. Amor demais também derruba tronos.'],
   guarda0:['As Muralhas Caíram','Sem guarda, Arcadia ficou de portas abertas. Os estandartes inimigos tremulam nas torres pontiagudas.'],
-  divida:['O Cofre Vazio','Quatro semanas sem pagar soldos. A guarda depôs as lanças, e Valkiria não conseguiu segurar mais ninguém.']};
+  divida:['O Cofre Vazio','A última moeda saiu do cofre. Sem soldo, a guarda depôs as lanças. Sem pagamento, as guildas fecharam as portas. Uma coroa sem ouro é só metal.']};
 
 let S=null, cur=null, soundOn=false, AC=null, setupSel='normal', setupVals={};
 
@@ -425,7 +425,7 @@ function totOut(){return despesa().reduce((a,b)=>a+b[1],0)}
 /* ── render ── */
 function renderRes(){
   $('#res').innerHTML=RES.map(r=>{const v=S[r.k];const pct=r.k==='ouro'?Math.min(100,v/3):v;
-    const danger=r.k==='ouro'?v<0:(v<=15||(r.k!=='guarda'&&v>=88));
+    const danger=r.k==='ouro'?v<=40:(v<=15||(r.k!=='guarda'&&v>=88));
     const col=`var(--r-${r.k})`;
     return `<div class="rc ${danger?'danger':''}" id="rc-${r.k}"><span class="d" id="d-${r.k}"></span>
       <div class="hd"><i>${r.i}</i>${r.n}</div>
@@ -509,7 +509,7 @@ function renderViews(){
      ${d.map(([n,v,s])=>`<div class="row"><div>${n}<small>${s}</small></div><b class="neg">−${v}</b></div>`).join('')}
    </div></div></div>
    <div class="total"><span>Saldo da semana</span><span class="${tin-tout+vig>=0?'pos':'neg'}">${fmt(tin-tout+vig)} ⚜</span></div>
-   ${S.debt?`<p style="margin-top:10px;color:#ff8f80">⚠ Cofre negativo há ${S.debt} semana(s). Com 4, a guarda depõe as lanças.</p>`:''}`;
+   <p style="margin-top:10px;color:${S.ouro<=40?'#ff8f80':'var(--dim)'}">⚠ Se o cofre chegar a zero, o reinado acaba na hora.</p>`;
   $('#croList').innerHTML=S.log.slice().reverse().map(l=>`<div class="row"><b>SEM. ${pad(l.w)}</b><span>${l.t}</span></div>`).join('')||'<p class="empty">A crônica ainda está em branco.</p>';
 }
 function render(anim){renderHead();renderRes();renderCard(anim);renderAdv();renderViews()}
@@ -553,7 +553,6 @@ function decide(o){
   ended.forEach(g=>S.log.push({w:S.week,t:`📜 O decreto “${g.nome}” expirou.`}));
   if(!S.consulted.length)S.aut=Math.min(100,S.aut+6);
   if(S.aut<25)S.nobreza=Math.max(0,S.nobreza-1);
-  if(S.ouro<0){S.debt++;S.guarda=Math.max(0,S.guarda-4)}else S.debt=0;
   // resumo
   const diffs=RES.map(r=>[r,S[r.k]-before[r.k]]).filter(([r,d])=>Math.round(d)!==0);
   toast(`<b>SEMANA ${pad(S.week)} ENCERRADA</b><br>${diffs.map(([r,d])=>`${r.i} ${fmt(d)}`).join(' &nbsp; ')||'Nada mudou.'}${ended.length?`<br>📜 Expirou: ${ended.map(g=>g.nome).join(', ')}`:''}`);
@@ -576,7 +575,7 @@ function checkEnd(){
   if(S.dif==='sandbox')return false;
   let k=null;
   for(const n of ['nobreza','clero','burguesia','povo']){if(S[n]<=0){k=n+'0';break}if(S[n]>=100){k=n+'100';break}}
-  if(!k&&S.guarda<=0)k='guarda0'; if(!k&&S.debt>=4)k='divida';
+  if(!k&&S.guarda<=0)k='guarda0'; if(!k&&S.ouro<=0)k='divida';
   if(!k)return false;
   S.over=true; save(); showEnd(k); return true;
 }
@@ -601,7 +600,7 @@ function openSetup(canClose){
 }
 function setPreset(p){setupSel=p;setupVals={...DIF[p].v};buildSliders();readSetup()}
 function buildSliders(){
-  $('#sliders').innerHTML=SLK.map(k=>{const r=RES.find(x=>x.k===k);const mx=k==='ouro'?400:90,mn=k==='ouro'?0:10;
+  $('#sliders').innerHTML=SLK.map(k=>{const r=RES.find(x=>x.k===k);const mx=k==='ouro'?400:90,mn=k==='ouro'?20:10;
     return `<div class="sl"><div class="r"><span>${r.i} ${r.n}</span><b style="color:var(--r-${k})" id="sv-${k}">${setupVals[k]}${k==='ouro'?' ⚜':'%'}</b></div><input type="range" min="${mn}" max="${mx}" step="${k==='ouro'?10:1}" value="${setupVals[k]}" data-k="${k}"></div>`}).join('');
   $$('#sliders input').forEach(i=>i.oninput=()=>{setupVals[i.dataset.k]=+i.value;$('#sv-'+i.dataset.k).textContent=i.value+(i.dataset.k==='ouro'?' ⚜':'%');setupSel=guess();readSetup()});
   $('#presets').innerHTML=Object.entries(DIF).map(([k,d])=>`<button data-p="${k}" class="${k===setupSel?'on':''}">${d.n}</button>`).join('');
