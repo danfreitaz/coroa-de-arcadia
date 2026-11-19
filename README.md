@@ -6,7 +6,9 @@ Jogo de decisões no navegador, ambientado no **Reino de Arcadia**. Cada semana 
 - **806 petições**: 692 podem surgir em qualquer semana e 114 são desdobramentos de escolhas anteriores.
 - **Lotes IX a XIX (500 petições)**: 200 normais, 100 em cadeias de desdobramentos (30 histórias de 3 a 4 capítulos), 100 decretos e 100 de alto risco.
 - **100 audiências de alto risco**, marcadas com ⚠, com ganhos e perdas bem maiores: golpes, invasões, pestes, dragões e o selo de Vhalkir.
-- **Recursos**: Ouro, Guarda Real, Nobreza, Clero, Burguesia e Povo. Se um dos quatro grupos chega a 0% ou 100%, o reinado cai.
+- **Recursos**: Ouro, Guarda Real, Nobreza, Clero, Burguesia e Povo. Se um dos quatro grupos ou a Guarda Real chega a 0% (ou menos), ou se o ouro zera, o reinado cai. Chegar a 100% não derruba ninguém.
+- **Mapa**: mapa em SVG do reino e da capital, com 45 lugares, dicas ao passar o mouse e alfinetes marcando onde está a audiência da semana e cada decreto em vigor.
+- **Personalidades**: 155 figuras e as instituições de Arcadia, com busca, filtros por grupo e destaque para quem está na audiência ou é citado no pedido (`mundo.js`).
 - **A Corte**: Jodyr revela Ouro, Nobreza e Burguesia. Valkiria revela Guarda e Clero. Banx revela Povo e Desdobramentos. Cada consulta custa Autoridade do Rei, e uma semana sem consultar devolve +6.
 - **Decretos, Tesouro e Crônica**: acordos que valem por semanas, o Registro Financeiro Semanal do Cofre do Reino e o histórico do reinado.
 - O progresso e os savepoints ficam salvos no navegador.
